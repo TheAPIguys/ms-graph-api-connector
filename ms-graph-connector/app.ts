@@ -1,4 +1,5 @@
 import { APIGatewayProxyEvent, APIGatewayProxyResult } from 'aws-lambda';
+import { testOne } from './graph-api';
 
 /**
  *
@@ -11,11 +12,14 @@ import { APIGatewayProxyEvent, APIGatewayProxyResult } from 'aws-lambda';
  */
 
 export const lambdaHandler = async (event: APIGatewayProxyEvent): Promise<APIGatewayProxyResult> => {
+    const varEnv = process.env.CLIENT_ID;
+    const result = await testOne();
     try {
         return {
             statusCode: 200,
             body: JSON.stringify({
-                message: 'hello world',
+                message: 'hello world envVar:',
+                results: result,
             }),
         };
     } catch (err) {
