@@ -76,8 +76,8 @@ export async function getAllSharepointItems(sharepointSite: string, sharepointLi
   }
 }
 
-function orderResponse(response: GraphResponse, column: string, orderType: OrderType = 'asc'): object[] {
-  // to do
+function orderResponse(response: GraphResponse, column: string = '', orderType: OrderType = 'asc'): object[] {
+  // TODO
 
   return [{}];
 }
