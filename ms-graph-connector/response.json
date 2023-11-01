@@ -1,0 +1,2676 @@
+[
+  {
+    "@odata.etag": "\"9a41b740-1435-481a-bf5b-886f97f19cf5,51\"",
+    "createdDateTime": "2021-10-12T22:32:08Z",
+    "eTag": "\"9a41b740-1435-481a-bf5b-886f97f19cf5,51\"",
+    "id": "6",
+    "lastModifiedDateTime": "2023-10-17T23:33:59Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/6_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": {
+        "email": "Darren@rfe.co.nz",
+        "id": "2a72cd22-c3ad-4384-8801-695056df2789",
+        "displayName": "Darren Simpson"
+      }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('6')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"9a41b740-1435-481a-bf5b-886f97f19cf5,51\"",
+      "id": "6",
+      "ContentType": "Item",
+      "Modified": "2023-10-17T23:33:59Z",
+      "Created": "2021-10-12T22:32:08Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "18",
+      "_UIVersionString": "51.0",
+      "Attachments": false,
+      "Edit": "",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "Terlato Wines International",
+      "vintraceid": "60",
+      "SalesType": "Export",
+      "SalesPriceListName": "Terlato USA",
+      "AccountCode": "USA Terlato (8110)",
+      "Stack": "Slip Sheet",
+      "Container": "40 Ft",
+      "salesRegionCode": "USA Sales - Terlato",
+      "Terms": "75 Days",
+      "Currency": "USD",
+      "Country": "USA",
+      "POContact": "Geri",
+      "NormalLoadQty": "1232",
+      "Brand": "Wairau River",
+      "ThisMonth": "Green",
+      "LastMonth": "Green",
+      "Comments": "Federalist range extension now confirmed. Still hoping to make first shipment in late October. Expect Costco WR shipments to start in December. Need to pick up PO's for normal WRSB23.",
+      "EntryPort": "Oakland, Philadelphia, New York, Florida, Houston, Long Beach, Everglades, Savannah, Boston, Baltimore",
+      "ContainerTracking": "Yes",
+      "ContainerLoadMethod": "Slipsheet load\nThermal liner required"
+    }
+  },
+  {
+    "@odata.etag": "\"674fe98c-0835-45c2-8a68-e75774bc213c,29\"",
+    "createdDateTime": "2021-10-12T22:32:08Z",
+    "eTag": "\"674fe98c-0835-45c2-8a68-e75774bc213c,29\"",
+    "id": "7",
+    "lastModifiedDateTime": "2023-10-06T01:52:26Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/7_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": { "email": "dave@rfe.co.nz", "id": "107417a5-bd51-4613-a5d7-e698f358a3d9", "displayName": "Dave Kenny" }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('7')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"674fe98c-0835-45c2-8a68-e75774bc213c,29\"",
+      "id": "7",
+      "ContentType": "Item",
+      "Modified": "2023-10-06T01:52:26Z",
+      "Created": "2021-10-12T22:32:08Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "17",
+      "_UIVersionString": "29.0",
+      "Attachments": false,
+      "Edit": "",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "Grocery Holdings AUD AC",
+      "vintraceid": "63",
+      "SalesType": "Export",
+      "SalesPriceListName": "Coles Liquor",
+      "AccountCode": "Aust Sales - Nationwide (8340)",
+      "Stack": "Slip Sheet",
+      "Container": "20 Ft",
+      "salesRegionCode": "Aust Sales - Nationwide",
+      "Terms": "30 Days",
+      "Currency": "AUD",
+      "Country": "Australia",
+      "NormalLoadQty": "1960",
+      "ThisMonth": "Orange",
+      "LastMonth": "Orange",
+      "Comments": "Still have Land of Giants SB22 to move in October. Tohora sales are soft. The balance of the range (Chardonnay, Rose) to be launched in October so hoping this will help with overall sales.",
+      "EntryPort": "Sydney, Brisbane, Melbourne, Adelaide, Perth",
+      "ContainerTracking": "No"
+    }
+  },
+  {
+    "@odata.etag": "\"b338e7fe-7dad-43ec-8076-558e05049700,19\"",
+    "createdDateTime": "2021-10-12T22:32:17Z",
+    "eTag": "\"b338e7fe-7dad-43ec-8076-558e05049700,19\"",
+    "id": "13",
+    "lastModifiedDateTime": "2023-07-11T23:08:36Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/13_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": { "email": "dave@rfe.co.nz", "id": "107417a5-bd51-4613-a5d7-e698f358a3d9", "displayName": "Dave Kenny" }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('13')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"b338e7fe-7dad-43ec-8076-558e05049700,19\"",
+      "id": "13",
+      "ContentType": "Item",
+      "Title": "Fresha Export Limited",
+      "Modified": "2023-07-11T23:08:36Z",
+      "Created": "2021-10-12T22:32:17Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "17",
+      "_UIVersionString": "19.0",
+      "Attachments": false,
+      "Edit": "",
+      "LinkTitleNoMenu": "Fresha Export Limited",
+      "LinkTitle": "Fresha Export Limited",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "Fresha Export Limited",
+      "vintraceid": "420",
+      "SalesType": "Export",
+      "SalesPriceListName": "Fresha Export",
+      "AccountCode": "Pacific Sales (8450)",
+      "Stack": "Export",
+      "Container": "LCL",
+      "salesRegionCode": "Pacific Sales",
+      "Terms": "90 Days",
+      "Currency": "NZD",
+      "Country": "New Zealand",
+      "ThisMonth": "Green",
+      "LastMonth": "Green",
+      "Comments": "Have now finished up with Fresha",
+      "EntryPort": "Noumea, Port Moresby, Cook Islands, Rarotonga, Marshall Islands"
+    }
+  },
+  {
+    "@odata.etag": "\"47ef9971-0f88-4810-92d0-7705da2b6e03,32\"",
+    "createdDateTime": "2021-10-12T22:32:25Z",
+    "eTag": "\"47ef9971-0f88-4810-92d0-7705da2b6e03,32\"",
+    "id": "16",
+    "lastModifiedDateTime": "2023-10-06T01:55:46Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/16_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": { "email": "dave@rfe.co.nz", "id": "107417a5-bd51-4613-a5d7-e698f358a3d9", "displayName": "Dave Kenny" }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('16')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"47ef9971-0f88-4810-92d0-7705da2b6e03,32\"",
+      "id": "16",
+      "ContentType": "Item",
+      "Modified": "2023-10-06T01:55:46Z",
+      "Created": "2021-10-12T22:32:25Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "17",
+      "_UIVersionString": "32.0",
+      "Attachments": false,
+      "Edit": "",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "Liquor Control Board Ontario",
+      "vintraceid": "157",
+      "SalesType": "Export",
+      "SalesPriceListName": "LCBO Airen",
+      "AccountCode": "Canada Sales - Ontario (8050)",
+      "Stack": "Export",
+      "Container": "LCL",
+      "salesRegionCode": "Canada Sales - Ontario",
+      "Terms": "90 Days",
+      "Currency": "CAD",
+      "Country": "Canada",
+      "ThisMonth": "Green",
+      "LastMonth": "Green",
+      "Comments": "Ahead of budget. Nearly out of stock with 1,300 cases Riverlore landing this week. Will need to place an order again soon. MP on it.",
+      "EntryPort": "Vancouver, Philadelphia, Toronto",
+      "ContainerTracking": "Yes"
+    }
+  },
+  {
+    "@odata.etag": "\"b132483c-4aaf-48d8-94fd-db3e83bd5298,26\"",
+    "createdDateTime": "2021-10-12T22:32:26Z",
+    "eTag": "\"b132483c-4aaf-48d8-94fd-db3e83bd5298,26\"",
+    "id": "19",
+    "lastModifiedDateTime": "2023-10-06T02:00:02Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/19_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": { "email": "dave@rfe.co.nz", "id": "107417a5-bd51-4613-a5d7-e698f358a3d9", "displayName": "Dave Kenny" }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('19')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"b132483c-4aaf-48d8-94fd-db3e83bd5298,26\"",
+      "id": "19",
+      "ContentType": "Item",
+      "Modified": "2023-10-06T02:00:02Z",
+      "Created": "2021-10-12T22:32:26Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "17",
+      "_UIVersionString": "26.0",
+      "Attachments": false,
+      "Edit": "",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "Precept Brands LLC",
+      "vintraceid": "462",
+      "SalesType": "Export",
+      "SalesPriceListName": "Precept Brands - USA",
+      "AccountCode": "USA - Precept Brands",
+      "Stack": "Slip Sheet",
+      "Container": "40 Ft",
+      "salesRegionCode": "USA Sales - Precept Brands",
+      "Terms": "90 Days",
+      "Currency": "USD",
+      "Country": "USA",
+      "NormalLoadQty": "1232",
+      "ThisMonth": "Green",
+      "LastMonth": "Green",
+      "Comments": "Slightly behind budget, more to do with timing than anything. DK had discussions with them around range extensions including lite/low. Very keen. DK to get samples to them when available.",
+      "EntryPort": "Oakland",
+      "ContainerTracking": "Yes"
+    }
+  },
+  {
+    "@odata.etag": "\"d6d87ec8-9528-409a-91d0-32236c61175e,30\"",
+    "createdDateTime": "2021-10-12T22:32:29Z",
+    "eTag": "\"d6d87ec8-9528-409a-91d0-32236c61175e,30\"",
+    "id": "21",
+    "lastModifiedDateTime": "2023-10-06T01:42:28Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/21_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": { "email": "dave@rfe.co.nz", "id": "107417a5-bd51-4613-a5d7-e698f358a3d9", "displayName": "Dave Kenny" }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('21')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"d6d87ec8-9528-409a-91d0-32236c61175e,30\"",
+      "id": "21",
+      "ContentType": "Item",
+      "Modified": "2023-10-06T01:42:28Z",
+      "Created": "2021-10-12T22:32:29Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "17",
+      "_UIVersionString": "30.0",
+      "Attachments": false,
+      "Edit": "",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "Ellis of Richmond",
+      "vintraceid": "58",
+      "SalesType": "Export",
+      "SalesPriceListName": "Ellis Of Richmond",
+      "AccountCode": "UK Sales - Ellis  (8200)",
+      "Stack": "Chep UK",
+      "Container": "40 Ft",
+      "salesRegionCode": "UK Sales",
+      "Terms": "90 Days",
+      "Currency": "GBP",
+      "Country": "UK",
+      "Brand": "Wairau River; Turning Heads",
+      "ThisMonth": "Green",
+      "LastMonth": "Orange",
+      "Comments": "Still working with them to move through the last of the Havoc SB 2022 wines. Ahead of budget. Got a very good listing with Heartwood Collection pubs. Very keen for low/lite alc 2024.",
+      "EntryPort": "London Gateway, Felixstowe",
+      "ContainerTracking": "Yes",
+      "ContainerLoadMethod": "UK Chep",
+      "DocumentsRequired": "Origin Declaration - see order file\nNO VI1's required"
+    }
+  },
+  {
+    "@odata.etag": "\"16e65c78-328c-4bb2-837e-c96a907d5059,11\"",
+    "createdDateTime": "2021-10-12T22:32:39Z",
+    "eTag": "\"16e65c78-328c-4bb2-837e-c96a907d5059,11\"",
+    "id": "23",
+    "lastModifiedDateTime": "2022-08-31T19:40:56Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/23_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('23')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"16e65c78-328c-4bb2-837e-c96a907d5059,11\"",
+      "id": "23",
+      "ContentType": "Item",
+      "Modified": "2022-08-31T19:40:56Z",
+      "Created": "2021-10-12T22:32:39Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "13",
+      "_UIVersionString": "11.0",
+      "Attachments": false,
+      "Edit": "",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "Nelson Queensland T/A Winestock",
+      "vintraceid": "191",
+      "SalesType": "Export",
+      "SalesPriceListName": "Winestock",
+      "AccountCode": "Aust Sales - QLD (8310)",
+      "Stack": "Loose",
+      "Container": "20 Ft",
+      "salesRegionCode": "Aust Sales - QLD",
+      "Terms": "90 Days",
+      "Currency": "AUD",
+      "Country": "Australia",
+      "NormalLoadQty": "840",
+      "EntryPort": "Brisbane"
+    }
+  },
+  {
+    "@odata.etag": "\"262fefba-465e-47b8-a438-d2d44a430f11,29\"",
+    "createdDateTime": "2021-10-13T02:07:30Z",
+    "eTag": "\"262fefba-465e-47b8-a438-d2d44a430f11,29\"",
+    "id": "26",
+    "lastModifiedDateTime": "2023-10-06T02:04:30Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/26_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": { "email": "dave@rfe.co.nz", "id": "107417a5-bd51-4613-a5d7-e698f358a3d9", "displayName": "Dave Kenny" }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('26')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"262fefba-465e-47b8-a438-d2d44a430f11,29\"",
+      "id": "26",
+      "ContentType": "Item",
+      "Modified": "2023-10-06T02:04:30Z",
+      "Created": "2021-10-13T02:07:30Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "17",
+      "_UIVersionString": "29.0",
+      "Attachments": false,
+      "Edit": "",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "Winery Exchange",
+      "vintraceid": "85",
+      "SalesType": "Export",
+      "SalesPriceListName": "Winery Exchange",
+      "AccountCode": "USA - Winery Exchange (8105)",
+      "Stack": "Slip Sheet",
+      "Container": "40 Ft",
+      "salesRegionCode": "USA Sales - Winery Exchange",
+      "Terms": "90 Days",
+      "Currency": "USD",
+      "Country": "USA",
+      "NormalLoadQty": "1232",
+      "ThisMonth": "Green",
+      "LastMonth": "Green",
+      "Comments": "Well ahead of budget. Allocations continue to change between the brands but have requested an additional 2 containers SB23. DK has discussed lite/low and will send samples when available.",
+      "EntryPort": "Oakland, London Gateway, Boston, New York",
+      "ContainerTracking": "Yes",
+      "ShippingTerms": "Ex Works",
+      "ContainerLoadMethod": "Slipsheet load from July 2023"
+    }
+  },
+  {
+    "@odata.etag": "\"388aeaec-90c2-421f-b9e7-6486b0ec4d6a,7\"",
+    "createdDateTime": "2021-10-13T02:07:32Z",
+    "eTag": "\"388aeaec-90c2-421f-b9e7-6486b0ec4d6a,7\"",
+    "id": "27",
+    "lastModifiedDateTime": "2022-08-31T19:40:49Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/27_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('27')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"388aeaec-90c2-421f-b9e7-6486b0ec4d6a,7\"",
+      "id": "27",
+      "ContentType": "Item",
+      "Modified": "2022-08-31T19:40:49Z",
+      "Created": "2021-10-13T02:07:32Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "13",
+      "_UIVersionString": "7.0",
+      "Attachments": false,
+      "Edit": "",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "Nelson & Robertson PTY LTD",
+      "vintraceid": "557",
+      "SalesType": "Export",
+      "SalesPriceListName": "Norfolk",
+      "AccountCode": "Pacific Sales (8450)",
+      "Stack": "Export",
+      "Container": "LCL",
+      "salesRegionCode": "Pacific Sales",
+      "Terms": "90 Days",
+      "Currency": "AUD",
+      "Country": "Australia",
+      "EntryPort": "Norfolk Island"
+    }
+  },
+  {
+    "@odata.etag": "\"242463e7-b966-4b93-93ae-197f59919308,10\"",
+    "createdDateTime": "2021-10-13T02:07:35Z",
+    "eTag": "\"242463e7-b966-4b93-93ae-197f59919308,10\"",
+    "id": "28",
+    "lastModifiedDateTime": "2022-09-30T02:16:50Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/28_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": { "email": "dave@rfe.co.nz", "id": "107417a5-bd51-4613-a5d7-e698f358a3d9", "displayName": "Dave Kenny" }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('28')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"242463e7-b966-4b93-93ae-197f59919308,10\"",
+      "id": "28",
+      "ContentType": "Item",
+      "Modified": "2022-09-30T02:16:50Z",
+      "Created": "2021-10-13T02:07:35Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "17",
+      "_UIVersionString": "10.0",
+      "Attachments": false,
+      "Edit": "",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "Dorrien Estate",
+      "vintraceid": "769",
+      "SalesType": "Export",
+      "SalesPriceListName": "Dorrien Estate",
+      "AccountCode": "Aust Sales - Nationwide (8340)",
+      "Stack": "Slip Sheet",
+      "Container": "40 Ft",
+      "salesRegionCode": "Aust Sales - Nationwide",
+      "Terms": "60 Days",
+      "Currency": "NZD",
+      "Country": "Australia",
+      "ThisMonth": "Green",
+      "LastMonth": "Green",
+      "Comments": "Have now sent all of the budgeted bulk. Offered 72k more but they declined",
+      "EntryPort": "Adelaide"
+    }
+  },
+  {
+    "@odata.etag": "\"3de16ce8-978c-4a08-b174-cc0daa23ed08,27\"",
+    "createdDateTime": "2021-10-13T02:07:36Z",
+    "eTag": "\"3de16ce8-978c-4a08-b174-cc0daa23ed08,27\"",
+    "id": "29",
+    "lastModifiedDateTime": "2023-10-06T01:43:37Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/29_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": { "email": "dave@rfe.co.nz", "id": "107417a5-bd51-4613-a5d7-e698f358a3d9", "displayName": "Dave Kenny" }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('29')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"3de16ce8-978c-4a08-b174-cc0daa23ed08,27\"",
+      "id": "29",
+      "ContentType": "Item",
+      "Modified": "2023-10-06T01:43:37Z",
+      "Created": "2021-10-13T02:07:36Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "17",
+      "_UIVersionString": "27.0",
+      "Attachments": false,
+      "Edit": "",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "EMW (Shanghai) Trading Company Ltd",
+      "vintraceid": "214",
+      "SalesType": "Export",
+      "SalesPriceListName": "EMW Shanghai",
+      "AccountCode": "Asia Sales (8400)",
+      "Stack": "Export",
+      "Container": "20 Ft",
+      "salesRegionCode": "Asia Sales",
+      "Terms": "150 Days",
+      "Currency": "NZD",
+      "Country": "China",
+      "ThisMonth": "Green",
+      "LastMonth": "Green",
+      "Comments": "Nothing budgeted till October. EMW have indicated they will place an order soon. DK to visit Shanghai in November. Possible visit to NZ in Feb/Mar 24",
+      "EntryPort": "Shanghai",
+      "ContainerTracking": "No"
+    }
+  },
+  {
+    "@odata.etag": "\"9c764d4e-9cc8-4988-ac64-279b3e35ef62,30\"",
+    "createdDateTime": "2021-10-13T02:07:38Z",
+    "eTag": "\"9c764d4e-9cc8-4988-ac64-279b3e35ef62,30\"",
+    "id": "30",
+    "lastModifiedDateTime": "2023-10-06T01:57:14Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/30_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": { "email": "dave@rfe.co.nz", "id": "107417a5-bd51-4613-a5d7-e698f358a3d9", "displayName": "Dave Kenny" }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('30')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"9c764d4e-9cc8-4988-ac64-279b3e35ef62,30\"",
+      "id": "30",
+      "ContentType": "Item",
+      "Modified": "2023-10-06T01:57:14Z",
+      "Created": "2021-10-13T02:07:38Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "17",
+      "_UIVersionString": "30.0",
+      "Attachments": false,
+      "Edit": "",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "Lone Tree Cellars Ltd",
+      "vintraceid": "162",
+      "SalesType": "Export",
+      "SalesPriceListName": "Lone Tree Cellars",
+      "AccountCode": "Canada Sales - BC (8055)",
+      "Stack": "Export",
+      "Container": "40 Ft",
+      "salesRegionCode": "Canada Sales - BC",
+      "Terms": "90 Days",
+      "Currency": "CAD",
+      "Country": "Canada",
+      "NormalLoadQty": "1232",
+      "ThisMonth": "Orange",
+      "LastMonth": "Orange",
+      "Comments": "Lone Tree will need to continue selling the 2022 well into the year. The market has been flooded with Marlborough SB, with some ridiculous promotional pricing happening. Matt and DK have put plans in place with Andrew to move through stock, especially Havoc (now 2,800 cases on hand). Andrew has proposed new pricing going forward as part of a bigger plan but these are too low for us to consider. ",
+      "EntryPort": "Vancouver",
+      "ContainerTracking": "No"
+    }
+  },
+  {
+    "@odata.etag": "\"66cf848f-c396-4ec6-8d24-6c85b46138b2,28\"",
+    "createdDateTime": "2021-10-13T02:07:40Z",
+    "eTag": "\"66cf848f-c396-4ec6-8d24-6c85b46138b2,28\"",
+    "id": "31",
+    "lastModifiedDateTime": "2023-10-06T01:51:39Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/31_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": { "email": "dave@rfe.co.nz", "id": "107417a5-bd51-4613-a5d7-e698f358a3d9", "displayName": "Dave Kenny" }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('31')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"66cf848f-c396-4ec6-8d24-6c85b46138b2,28\"",
+      "id": "31",
+      "ContentType": "Item",
+      "Modified": "2023-10-06T01:51:39Z",
+      "Created": "2021-10-13T02:07:40Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "17",
+      "_UIVersionString": "28.0",
+      "Attachments": false,
+      "Edit": "",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "GK Skaggs Inc.",
+      "vintraceid": "160",
+      "SalesType": "Export",
+      "SalesPriceListName": "GK Skaggs",
+      "AccountCode": "USA - GK Skaggs (8100)",
+      "Stack": "Export",
+      "Container": "40 Ft",
+      "salesRegionCode": "USA Sales - GK Skaggs",
+      "Terms": "90 Days",
+      "Currency": "USD",
+      "Country": "USA",
+      "NormalLoadQty": "1470",
+      "ThisMonth": "Orange",
+      "LastMonth": "Orange",
+      "Comments": "Slightly behind on payments. DK waiting for email response.",
+      "EntryPort": "Norfolk, Port Everglades, Philadelphia, Long Beach",
+      "ContainerTracking": "No"
+    }
+  },
+  {
+    "@odata.etag": "\"190652d2-4740-4e7f-9a42-210d7fd498be,36\"",
+    "createdDateTime": "2021-10-13T02:07:41Z",
+    "eTag": "\"190652d2-4740-4e7f-9a42-210d7fd498be,36\"",
+    "id": "32",
+    "lastModifiedDateTime": "2023-10-10T21:08:27Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/32_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": {
+        "email": "Darren@rfe.co.nz",
+        "id": "2a72cd22-c3ad-4384-8801-695056df2789",
+        "displayName": "Darren Simpson"
+      }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('32')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"190652d2-4740-4e7f-9a42-210d7fd498be,36\"",
+      "id": "32",
+      "ContentType": "Item",
+      "Modified": "2023-10-10T21:08:27Z",
+      "Created": "2021-10-13T02:07:41Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "18",
+      "_UIVersionString": "36.0",
+      "Attachments": false,
+      "Edit": "",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "Direct Wines Limited",
+      "vintraceid": "88",
+      "SalesType": "Export",
+      "SalesPriceListName": "Direct Wines",
+      "AccountCode": "UK Revenue - Other (8201)",
+      "Stack": "Slip Sheet",
+      "Container": "40 Ft",
+      "salesRegionCode": "UK Sales",
+      "Terms": "90 Days",
+      "Currency": "GBP",
+      "Country": "UK",
+      "NormalLoadQty": "1470",
+      "ThisMonth": "Green",
+      "LastMonth": "Green",
+      "Comments": "Slightly ahead of budget. No 2023 bottled to come from us. The last of the Tikohi SB2 will be uplifted in November.",
+      "EntryPort": "London Gateway, Teesport",
+      "ContainerTracking": "No",
+      "SpecialDocs": "VI1's required",
+      "ContainerLoadMethod": "Slipsheet load on 70 x cases pallet stacks.\n\nLiner not required",
+      "DocumentsRequired": "WECS - VI1's required"
+    }
+  },
+  {
+    "@odata.etag": "\"2cee01a7-4381-4a62-a673-f97a4625ad54,15\"",
+    "createdDateTime": "2021-10-13T02:07:41Z",
+    "eTag": "\"2cee01a7-4381-4a62-a673-f97a4625ad54,15\"",
+    "id": "33",
+    "lastModifiedDateTime": "2023-10-06T02:02:45Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/33_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": { "email": "dave@rfe.co.nz", "id": "107417a5-bd51-4613-a5d7-e698f358a3d9", "displayName": "Dave Kenny" }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('33')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"2cee01a7-4381-4a62-a673-f97a4625ad54,15\"",
+      "id": "33",
+      "ContentType": "Item",
+      "Modified": "2023-10-06T02:02:45Z",
+      "Created": "2021-10-13T02:07:41Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "17",
+      "_UIVersionString": "15.0",
+      "Attachments": false,
+      "Edit": "",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "Wijnimport J. Bart Beemster B.V.",
+      "vintraceid": "65",
+      "SalesType": "Export",
+      "SalesPriceListName": "Wijnimport Bart EUR",
+      "AccountCode": "Europe Sales (8150)",
+      "Stack": "Export",
+      "Container": "20 Ft",
+      "salesRegionCode": "Europe Sales",
+      "Terms": "90 Days",
+      "Currency": "EUR",
+      "Country": "Netherlands",
+      "ThisMonth": "Green",
+      "LastMonth": "Green",
+      "Comments": "Slightly ahead of budget. All okay.",
+      "EntryPort": "Rotterdam",
+      "ContainerTracking": "No"
+    }
+  },
+  {
+    "@odata.etag": "\"faf4ba88-132e-47f1-a817-c9a330c4e493,10\"",
+    "createdDateTime": "2021-10-13T02:07:48Z",
+    "eTag": "\"faf4ba88-132e-47f1-a817-c9a330c4e493,10\"",
+    "id": "34",
+    "lastModifiedDateTime": "2022-08-31T19:41:31Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/34_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('34')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"faf4ba88-132e-47f1-a817-c9a330c4e493,10\"",
+      "id": "34",
+      "ContentType": "Item",
+      "Modified": "2022-08-31T19:41:31Z",
+      "Created": "2021-10-13T02:07:48Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "13",
+      "_UIVersionString": "10.0",
+      "Attachments": false,
+      "Edit": "",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "Q&P ALCO Merchant",
+      "vintraceid": "161",
+      "SalesType": "Export",
+      "SalesPriceListName": "Q&P Alco",
+      "AccountCode": "Europe Sales (8150)",
+      "Stack": "Export",
+      "Container": "20 Ft",
+      "salesRegionCode": "Europe Sales",
+      "Terms": "90 Days",
+      "Currency": "USD",
+      "Country": "Russia",
+      "EntryPort": "Riga"
+    }
+  },
+  {
+    "@odata.etag": "\"ad4f31ee-8b4b-4836-92e5-8319517c187f,48\"",
+    "createdDateTime": "2021-10-13T02:07:55Z",
+    "eTag": "\"ad4f31ee-8b4b-4836-92e5-8319517c187f,48\"",
+    "id": "36",
+    "lastModifiedDateTime": "2023-10-06T01:31:05Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/36_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": { "email": "dave@rfe.co.nz", "id": "107417a5-bd51-4613-a5d7-e698f358a3d9", "displayName": "Dave Kenny" }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('36')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"ad4f31ee-8b4b-4836-92e5-8319517c187f,48\"",
+      "id": "36",
+      "ContentType": "Item",
+      "Modified": "2023-10-06T01:31:05Z",
+      "Created": "2021-10-13T02:07:55Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "17",
+      "_UIVersionString": "48.0",
+      "Attachments": false,
+      "Edit": "",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "10 International",
+      "vintraceid": "751",
+      "SalesType": "Export",
+      "SalesPriceListName": "10 International",
+      "AccountCode": "UK Sales - 10 International (8204)",
+      "Stack": "Export",
+      "Container": "40 Ft",
+      "salesRegionCode": "UK Sales",
+      "Terms": "90 Days",
+      "Currency": "GBP",
+      "Country": "UK",
+      "NormalLoadQty": "3080 x six packs (140 cases x 22 pallets)",
+      "ThisMonth": "Orange",
+      "LastMonth": "Green",
+      "Comments": "Unfortunately we lost the Heineken  business (Cloud Cover) to a UK based bottling company. We don't have any stock on hand but do have dry goods that I will try to on-sell. First Voyage on track with PO received for early Oct dispatch. Still in communication around possible 'Sea Change' opportunity. ENZED SB22 still in the warehouse. Awaiting update on this.",
+      "EntryPort": "London Gateway, Ajman, South Shields",
+      "ContainerTracking": "No",
+      "SpecialDocs": "VI1's required",
+      "ShippingTerms": "FOB 90 days",
+      "ContainerLoadMethod": "First Voyage - 4 way pallets\nEnzed - Export pallets\nCloud Cover - Chep UK pallets\nNo liner required",
+      "DocumentsRequired": "WECS - VI1's required\nOrigin Declaration"
+    }
+  },
+  {
+    "@odata.etag": "\"5d08c95f-a8b3-4e16-a1d1-880610f0d320,12\"",
+    "createdDateTime": "2021-10-13T02:08:09Z",
+    "eTag": "\"5d08c95f-a8b3-4e16-a1d1-880610f0d320,12\"",
+    "id": "37",
+    "lastModifiedDateTime": "2023-05-07T05:32:05Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/37_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": { "email": "dave@rfe.co.nz", "id": "107417a5-bd51-4613-a5d7-e698f358a3d9", "displayName": "Dave Kenny" }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('37')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"5d08c95f-a8b3-4e16-a1d1-880610f0d320,12\"",
+      "id": "37",
+      "ContentType": "Item",
+      "Modified": "2023-05-07T05:32:05Z",
+      "Created": "2021-10-13T02:08:09Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "17",
+      "_UIVersionString": "12.0",
+      "Attachments": false,
+      "Edit": "",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "Quality Wines",
+      "vintraceid": "102",
+      "SalesType": "Export",
+      "SalesPriceListName": "Quality Wines",
+      "AccountCode": "Europe Sales (8150)",
+      "Stack": "Export",
+      "Container": "LCL",
+      "salesRegionCode": "Europe Sales",
+      "Terms": "90 Days",
+      "Currency": "EUR",
+      "Country": "Denmark",
+      "ThisMonth": "Green",
+      "LastMonth": "Green",
+      "Comments": "Now finished up",
+      "EntryPort": "Copenhagen"
+    }
+  },
+  {
+    "@odata.etag": "\"fd022909-baf3-4dbf-93cb-f6d502fd9b48,23\"",
+    "createdDateTime": "2021-10-13T02:08:13Z",
+    "eTag": "\"fd022909-baf3-4dbf-93cb-f6d502fd9b48,23\"",
+    "id": "38",
+    "lastModifiedDateTime": "2023-10-06T01:42:54Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/38_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": { "email": "dave@rfe.co.nz", "id": "107417a5-bd51-4613-a5d7-e698f358a3d9", "displayName": "Dave Kenny" }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('38')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"fd022909-baf3-4dbf-93cb-f6d502fd9b48,23\"",
+      "id": "38",
+      "ContentType": "Item",
+      "Modified": "2023-10-06T01:42:54Z",
+      "Created": "2021-10-13T02:08:13Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "17",
+      "_UIVersionString": "23.0",
+      "Attachments": false,
+      "Edit": "",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "EMW (Hong Kong) Trading Company Limited",
+      "vintraceid": "228",
+      "SalesType": "Export",
+      "SalesPriceListName": "EMW Hong Kong",
+      "AccountCode": "Asia Sales (8400)",
+      "Stack": "Export",
+      "Container": "20 Ft",
+      "salesRegionCode": "Asia Sales",
+      "Terms": "150 Days",
+      "Currency": "NZD",
+      "Country": "Hong Kong",
+      "ThisMonth": "Green",
+      "LastMonth": "Green",
+      "Comments": "Well ahead of budget due to big sale of Pinot Noir into Macau. Sales outside of this are still on the increase. DK to visit both HK and Macau as part of the EMW 20yr celebrations. Just received another PO.",
+      "EntryPort": "Hong Kong",
+      "ContainerTracking": "No",
+      "DocumentsRequired": "Originals to ship to customer:\nInvoice & Packing List \nWEC's\nBottling Declaration\nCert of Free Sale\nCOC COO\nWine Status Reports\nFinal BOL"
+    }
+  },
+  {
+    "@odata.etag": "\"ee303d36-9470-4692-8954-c228cfc9cbe6,22\"",
+    "createdDateTime": "2021-10-13T02:08:32Z",
+    "eTag": "\"ee303d36-9470-4692-8954-c228cfc9cbe6,22\"",
+    "id": "39",
+    "lastModifiedDateTime": "2023-09-14T01:04:45Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/39_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": {
+        "email": "Darren@rfe.co.nz",
+        "id": "2a72cd22-c3ad-4384-8801-695056df2789",
+        "displayName": "Darren Simpson"
+      }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('39')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"ee303d36-9470-4692-8954-c228cfc9cbe6,22\"",
+      "id": "39",
+      "ContentType": "Item",
+      "Modified": "2023-09-14T01:04:45Z",
+      "Created": "2021-10-13T02:08:32Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "18",
+      "_UIVersionString": "22.0",
+      "Attachments": false,
+      "Edit": "",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "Presicarre Corp",
+      "vintraceid": "724",
+      "SalesType": "Export",
+      "SalesPriceListName": "Presicarre ",
+      "AccountCode": "Asia Sales (8400)",
+      "Stack": "Export",
+      "Container": "20 Ft",
+      "salesRegionCode": "Asia Sales",
+      "Terms": "90 Days",
+      "Currency": "NZD",
+      "Country": "Taiwan",
+      "NormalLoadQty": "1400 x six packs (5 high layers)",
+      "ThisMonth": "Green",
+      "LastMonth": "Green",
+      "Comments": "All on track. 20ft container went in August. No concerns.",
+      "EntryPort": "Keelung",
+      "ContainerTracking": "No",
+      "ShippingTerms": "FOB - 90 days after BOL date",
+      "ContainerLoadMethod": "Export pallets\n\nNo liner required",
+      "DocumentsRequired": "Require a draft/pro-forma invoice once initial PO received"
+    }
+  },
+  {
+    "@odata.etag": "\"70de5abc-5b3f-4ea5-80e2-a8ddfad2e2f4,9\"",
+    "createdDateTime": "2021-10-13T02:08:33Z",
+    "eTag": "\"70de5abc-5b3f-4ea5-80e2-a8ddfad2e2f4,9\"",
+    "id": "40",
+    "lastModifiedDateTime": "2022-08-31T19:31:05Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/40_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('40')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"70de5abc-5b3f-4ea5-80e2-a8ddfad2e2f4,9\"",
+      "id": "40",
+      "ContentType": "Item",
+      "Modified": "2022-08-31T19:31:05Z",
+      "Created": "2021-10-13T02:08:33Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "13",
+      "_UIVersionString": "9.0",
+      "Attachments": false,
+      "Edit": "",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "Concealed Wines AB",
+      "vintraceid": "747",
+      "SalesType": "Export",
+      "SalesPriceListName": "Concealed Wine Norway",
+      "AccountCode": "Europe Sales (8150)",
+      "Stack": "Export",
+      "Container": "20 Ft",
+      "salesRegionCode": "Europe Sales",
+      "Terms": "90 Days",
+      "Currency": "EUR",
+      "Country": "Norway",
+      "EntryPort": "Stockholm"
+    }
+  },
+  {
+    "@odata.etag": "\"96bf8f37-cc30-440e-81db-bda14a8ea645,9\"",
+    "createdDateTime": "2021-10-13T02:08:40Z",
+    "eTag": "\"96bf8f37-cc30-440e-81db-bda14a8ea645,9\"",
+    "id": "41",
+    "lastModifiedDateTime": "2022-08-31T19:31:17Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/41_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('41')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"96bf8f37-cc30-440e-81db-bda14a8ea645,9\"",
+      "id": "41",
+      "ContentType": "Item",
+      "Modified": "2022-08-31T19:31:17Z",
+      "Created": "2021-10-13T02:08:40Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "13",
+      "_UIVersionString": "9.0",
+      "Attachments": false,
+      "Edit": "",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "Concealed Wines NUF",
+      "vintraceid": "577",
+      "SalesType": "Export",
+      "SalesPriceListName": "Concealed Wine Norway",
+      "AccountCode": "Europe Sales (8150)",
+      "Stack": "Export",
+      "Container": "20 Ft",
+      "salesRegionCode": "Europe Sales",
+      "Terms": "90 Days",
+      "Currency": "EUR",
+      "Country": "Norway",
+      "EntryPort": "Moss"
+    }
+  },
+  {
+    "@odata.etag": "\"d2bc8df1-1564-4448-92ad-b830b0e52233,8\"",
+    "createdDateTime": "2021-10-13T02:08:41Z",
+    "eTag": "\"d2bc8df1-1564-4448-92ad-b830b0e52233,8\"",
+    "id": "42",
+    "lastModifiedDateTime": "2022-08-31T19:40:45Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/42_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('42')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"d2bc8df1-1564-4448-92ad-b830b0e52233,8\"",
+      "id": "42",
+      "ContentType": "Item",
+      "Modified": "2022-08-31T19:40:45Z",
+      "Created": "2021-10-13T02:08:41Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "13",
+      "_UIVersionString": "8.0",
+      "Attachments": false,
+      "Edit": "",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "MoRo LLC",
+      "vintraceid": "404",
+      "SalesType": "Export",
+      "SalesPriceListName": "Moro",
+      "AccountCode": "Europe Sales (8150)",
+      "Stack": "Export",
+      "Container": "40 Ft",
+      "salesRegionCode": "Europe Sales",
+      "Terms": "90 Days",
+      "Currency": "EUR",
+      "Country": "Russia",
+      "EntryPort": "Riga"
+    }
+  },
+  {
+    "@odata.etag": "\"95d4f7d5-e6e3-4803-a06c-741d2c1f4716,21\"",
+    "createdDateTime": "2021-10-13T02:08:47Z",
+    "eTag": "\"95d4f7d5-e6e3-4803-a06c-741d2c1f4716,21\"",
+    "id": "43",
+    "lastModifiedDateTime": "2023-10-06T01:54:11Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/43_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": { "email": "dave@rfe.co.nz", "id": "107417a5-bd51-4613-a5d7-e698f358a3d9", "displayName": "Dave Kenny" }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('43')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"95d4f7d5-e6e3-4803-a06c-741d2c1f4716,21\"",
+      "id": "43",
+      "ContentType": "Item",
+      "Modified": "2023-10-06T01:54:11Z",
+      "Created": "2021-10-13T02:08:47Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "17",
+      "_UIVersionString": "21.0",
+      "Attachments": false,
+      "Edit": "",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "KNJ Wines and Spirits Co, LTD.",
+      "vintraceid": "532",
+      "SalesType": "Export",
+      "SalesPriceListName": "KNJ Wines & Spirits",
+      "AccountCode": "Asia Sales (8400)",
+      "Stack": "Export",
+      "Container": "LCL",
+      "salesRegionCode": "Asia Sales",
+      "Terms": "90 Days",
+      "Currency": "NZD",
+      "Country": "Korea",
+      "ThisMonth": "Green",
+      "LastMonth": "Green",
+      "Comments": "Nothing budgeted till October. Keen on second label as well. Have proposed Sunshine Bay.",
+      "EntryPort": "Busan",
+      "ContainerTracking": "No"
+    }
+  },
+  {
+    "@odata.etag": "\"421f80b5-f417-4d11-b37b-fd3b77f89ee4,11\"",
+    "createdDateTime": "2021-10-13T02:09:06Z",
+    "eTag": "\"421f80b5-f417-4d11-b37b-fd3b77f89ee4,11\"",
+    "id": "44",
+    "lastModifiedDateTime": "2022-08-31T19:41:43Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/44_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('44')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"421f80b5-f417-4d11-b37b-fd3b77f89ee4,11\"",
+      "id": "44",
+      "ContentType": "Item",
+      "Modified": "2022-08-31T19:41:43Z",
+      "Created": "2021-10-13T02:09:06Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "13",
+      "_UIVersionString": "11.0",
+      "Attachments": false,
+      "Edit": "",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "The Wine Fusion",
+      "vintraceid": "551",
+      "SalesType": "Export",
+      "SalesPriceListName": "Direct Bulk Sales",
+      "AccountCode": "Bulk Wine",
+      "Stack": "Bulk",
+      "Container": "Flexi",
+      "salesRegionCode": "Bulk Wine Sales Export",
+      "Terms": "90 Days",
+      "Currency": "NZD",
+      "Country": "UK",
+      "EntryPort": "Teesport, London Gateway"
+    }
+  },
+  {
+    "@odata.etag": "\"7d053a58-3b20-4275-a6f2-89a4f5889a02,16\"",
+    "createdDateTime": "2021-10-13T02:09:07Z",
+    "eTag": "\"7d053a58-3b20-4275-a6f2-89a4f5889a02,16\"",
+    "id": "45",
+    "lastModifiedDateTime": "2023-10-06T01:58:09Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/45_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": { "email": "dave@rfe.co.nz", "id": "107417a5-bd51-4613-a5d7-e698f358a3d9", "displayName": "Dave Kenny" }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('45')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"7d053a58-3b20-4275-a6f2-89a4f5889a02,16\"",
+      "id": "45",
+      "ContentType": "Item",
+      "Modified": "2023-10-06T01:58:09Z",
+      "Created": "2021-10-13T02:09:07Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "17",
+      "_UIVersionString": "16.0",
+      "Attachments": false,
+      "Edit": "",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "NICOLAS SA",
+      "vintraceid": "374",
+      "SalesType": "Export",
+      "SalesPriceListName": "NICOLAS",
+      "AccountCode": "Europe Sales (8150)",
+      "Stack": "Export",
+      "Container": "20 Ft",
+      "salesRegionCode": "Europe Sales",
+      "Terms": "90 Days",
+      "Currency": "EUR",
+      "Country": "France",
+      "ThisMonth": "Green",
+      "LastMonth": "Green",
+      "Comments": "Working towards a full 20ft of SB closer to December. ",
+      "EntryPort": "Le Havre",
+      "ContainerTracking": "No"
+    }
+  },
+  {
+    "@odata.etag": "\"80e03977-9239-46b2-a908-6293232c546a,21\"",
+    "createdDateTime": "2021-10-13T02:09:15Z",
+    "eTag": "\"80e03977-9239-46b2-a908-6293232c546a,21\"",
+    "id": "46",
+    "lastModifiedDateTime": "2023-10-06T01:33:32Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/46_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": { "email": "dave@rfe.co.nz", "id": "107417a5-bd51-4613-a5d7-e698f358a3d9", "displayName": "Dave Kenny" }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('46')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"80e03977-9239-46b2-a908-6293232c546a,21\"",
+      "id": "46",
+      "ContentType": "Item",
+      "Modified": "2023-10-06T01:33:32Z",
+      "Created": "2021-10-13T02:09:15Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "17",
+      "_UIVersionString": "21.0",
+      "Attachments": false,
+      "Edit": "",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "Cold Storage Singapore (1983) Pte Ltd",
+      "vintraceid": "392",
+      "SalesType": "Export",
+      "SalesPriceListName": "Cold Storage Singapore",
+      "AccountCode": "Asia Sales (8400)",
+      "Stack": "Export",
+      "Container": "20 Ft",
+      "salesRegionCode": "Asia Sales",
+      "Terms": "90 Days",
+      "Currency": "NZD",
+      "Country": "Singapore",
+      "ThisMonth": "Green",
+      "LastMonth": "Green",
+      "Comments": "On budget. DK confirmed for visit in November for their Wine Fair. Confirmed meeting with buyer. Will also catch up with Guy Nussey from Concho Y Toro looking at Asian options.",
+      "EntryPort": "Singapore",
+      "ContainerTracking": "No"
+    }
+  },
+  {
+    "@odata.etag": "\"9ddb6c84-5679-4e72-ae0c-89753b1af321,18\"",
+    "createdDateTime": "2021-10-13T02:09:24Z",
+    "eTag": "\"9ddb6c84-5679-4e72-ae0c-89753b1af321,18\"",
+    "id": "47",
+    "lastModifiedDateTime": "2023-09-11T04:24:50Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/47_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": { "email": "dave@rfe.co.nz", "id": "107417a5-bd51-4613-a5d7-e698f358a3d9", "displayName": "Dave Kenny" }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('47')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"9ddb6c84-5679-4e72-ae0c-89753b1af321,18\"",
+      "id": "47",
+      "ContentType": "Item",
+      "Modified": "2023-09-11T04:24:50Z",
+      "Created": "2021-10-13T02:09:24Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "17",
+      "_UIVersionString": "18.0",
+      "Attachments": false,
+      "Edit": "",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "Wine People",
+      "vintraceid": "94",
+      "SalesType": "Export",
+      "SalesPriceListName": "Wine People Australia",
+      "AccountCode": "Aust Sales - Nationwide (8340)",
+      "Stack": "Export",
+      "Container": "LCL",
+      "salesRegionCode": "Aust Sales - Nationwide",
+      "Terms": "90 Days",
+      "Currency": "AUD",
+      "Country": "Australia",
+      "ThisMonth": "Green",
+      "LastMonth": "Green",
+      "Comments": "Have received allocations for 2023 (30% increase in volume). Nothing budgeted till October.",
+      "EntryPort": "Sydney",
+      "ContainerTracking": "No"
+    }
+  },
+  {
+    "@odata.etag": "\"25653844-9bcd-4511-89de-5c24e7dcd714,15\"",
+    "createdDateTime": "2021-10-13T02:09:26Z",
+    "eTag": "\"25653844-9bcd-4511-89de-5c24e7dcd714,15\"",
+    "id": "48",
+    "lastModifiedDateTime": "2023-09-11T03:55:36Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/48_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": { "email": "dave@rfe.co.nz", "id": "107417a5-bd51-4613-a5d7-e698f358a3d9", "displayName": "Dave Kenny" }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('48')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"25653844-9bcd-4511-89de-5c24e7dcd714,15\"",
+      "id": "48",
+      "ContentType": "Item",
+      "Modified": "2023-09-11T03:55:36Z",
+      "Created": "2021-10-13T02:09:26Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "17",
+      "_UIVersionString": "15.0",
+      "Attachments": false,
+      "Edit": "",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "Lionstone International",
+      "vintraceid": "84",
+      "SalesType": "Export",
+      "SalesPriceListName": "Lionstone",
+      "AccountCode": "USA - Lionstone (8120)",
+      "Stack": "Export",
+      "Container": "40 Ft",
+      "salesRegionCode": "USA Sales - Lionstone",
+      "Terms": "90 Days",
+      "Currency": "USD",
+      "Country": "USA",
+      "ThisMonth": "Green",
+      "LastMonth": "Green",
+      "Comments": "Nothing budgeted till November. Have been in contact with Thomas. Not much happening there.",
+      "EntryPort": "New York, Seattle, Long Beach, Chicago",
+      "ContainerTracking": "No"
+    }
+  },
+  {
+    "@odata.etag": "\"67da45b4-04b6-49b3-926c-7edd3808ff9a,8\"",
+    "createdDateTime": "2021-10-13T02:09:31Z",
+    "eTag": "\"67da45b4-04b6-49b3-926c-7edd3808ff9a,8\"",
+    "id": "49",
+    "lastModifiedDateTime": "2023-09-11T00:55:13Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/49_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": { "email": "dave@rfe.co.nz", "id": "107417a5-bd51-4613-a5d7-e698f358a3d9", "displayName": "Dave Kenny" }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('49')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"67da45b4-04b6-49b3-926c-7edd3808ff9a,8\"",
+      "id": "49",
+      "ContentType": "Item",
+      "Modified": "2023-09-11T00:55:13Z",
+      "Created": "2021-10-13T02:09:31Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "17",
+      "_UIVersionString": "8.0",
+      "Attachments": false,
+      "Edit": "",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "Export Plus Ltd",
+      "vintraceid": "227",
+      "SalesType": "Export",
+      "SalesPriceListName": "Export Plus Ltd",
+      "AccountCode": "Pacific Sales (8450)",
+      "Stack": "Export",
+      "Container": "LCL",
+      "salesRegionCode": "Pacific Sales",
+      "Terms": "90 Days",
+      "Currency": "NZD",
+      "Country": "New Caledonia",
+      "EntryPort": "Noumea",
+      "ContainerTracking": "No"
+    }
+  },
+  {
+    "@odata.etag": "\"cfeadfb1-c825-4d28-97ae-068ffd5b20cf,21\"",
+    "createdDateTime": "2021-10-13T02:09:48Z",
+    "eTag": "\"cfeadfb1-c825-4d28-97ae-068ffd5b20cf,21\"",
+    "id": "52",
+    "lastModifiedDateTime": "2023-10-06T01:35:52Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/52_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": { "email": "dave@rfe.co.nz", "id": "107417a5-bd51-4613-a5d7-e698f358a3d9", "displayName": "Dave Kenny" }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('52')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"cfeadfb1-c825-4d28-97ae-068ffd5b20cf,21\"",
+      "id": "52",
+      "ContentType": "Item",
+      "Modified": "2023-10-06T01:35:52Z",
+      "Created": "2021-10-13T02:09:48Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "17",
+      "_UIVersionString": "21.0",
+      "Attachments": false,
+      "Edit": "",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "Direct Wines Ltd (Bulk)",
+      "vintraceid": "459",
+      "SalesType": "Export",
+      "SalesPriceListName": "Direct Bulk Sales",
+      "AccountCode": "Bulk Wine",
+      "Stack": "Bulk",
+      "Container": "Flexi",
+      "salesRegionCode": "Bulk Wine Sales Export",
+      "Terms": "90 Days",
+      "Currency": "NZD",
+      "Country": "UK",
+      "ThisMonth": "Green",
+      "LastMonth": "Green",
+      "Comments": "Received first bulk SB23 PO, to ship in early November. 2nd PO received to go in December",
+      "EntryPort": "Teesport, London Gateway",
+      "ContainerTracking": "No",
+      "SpecialDocs": "VI1's required",
+      "ContainerLoadMethod": "Bulk load - FFWD Kuehne & Nagel - Fernando Terbeck",
+      "DocumentsRequired": "WECS - VI1's required"
+    }
+  },
+  {
+    "@odata.etag": "\"916f41c1-e10e-498f-917a-e6c4d721e1c9,7\"",
+    "createdDateTime": "2021-10-13T02:10:19Z",
+    "eTag": "\"916f41c1-e10e-498f-917a-e6c4d721e1c9,7\"",
+    "id": "53",
+    "lastModifiedDateTime": "2022-08-31T19:40:39Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/53_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('53')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"916f41c1-e10e-498f-917a-e6c4d721e1c9,7\"",
+      "id": "53",
+      "ContentType": "Item",
+      "Modified": "2022-08-31T19:40:39Z",
+      "Created": "2021-10-13T02:10:19Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "13",
+      "_UIVersionString": "7.0",
+      "Attachments": false,
+      "Edit": "",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "Manitoba Liquor & Lotteries",
+      "vintraceid": "525",
+      "SalesType": "Export",
+      "SalesPriceListName": "ML&L",
+      "AccountCode": "Canada Sales - Manitoba (8060)",
+      "Stack": "Export",
+      "Container": "LCL",
+      "salesRegionCode": "Canada Sales - Manitoba",
+      "Terms": "120 Days",
+      "Currency": "CAD",
+      "Country": "Canada",
+      "EntryPort": "Vancouver"
+    }
+  },
+  {
+    "@odata.etag": "\"567ead00-46a0-4179-81ba-978710b0ac7d,9\"",
+    "createdDateTime": "2021-10-13T02:10:50Z",
+    "eTag": "\"567ead00-46a0-4179-81ba-978710b0ac7d,9\"",
+    "id": "56",
+    "lastModifiedDateTime": "2022-08-31T19:42:36Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/56_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('56')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"567ead00-46a0-4179-81ba-978710b0ac7d,9\"",
+      "id": "56",
+      "ContentType": "Item",
+      "Modified": "2022-08-31T19:42:36Z",
+      "Created": "2021-10-13T02:10:50Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "13",
+      "_UIVersionString": "9.0",
+      "Attachments": false,
+      "Edit": "",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "Zimmermann-Graeff & Muller",
+      "vintraceid": "546",
+      "SalesType": "Export",
+      "SalesPriceListName": "Direct Bulk Sales",
+      "AccountCode": "Bulk Wine",
+      "Stack": "Bulk",
+      "Container": "Flexi",
+      "salesRegionCode": "Bulk Wine Sales Export",
+      "Terms": "90 Days",
+      "Currency": "NZD",
+      "Country": "Germany",
+      "EntryPort": "Antwerp"
+    }
+  },
+  {
+    "@odata.etag": "\"751d3589-c22b-48da-b82b-dbc8ab33f2af,17\"",
+    "createdDateTime": "2021-10-13T02:11:45Z",
+    "eTag": "\"751d3589-c22b-48da-b82b-dbc8ab33f2af,17\"",
+    "id": "57",
+    "lastModifiedDateTime": "2023-04-13T03:53:26Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/57_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": { "email": "dave@rfe.co.nz", "id": "107417a5-bd51-4613-a5d7-e698f358a3d9", "displayName": "Dave Kenny" }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('57')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"751d3589-c22b-48da-b82b-dbc8ab33f2af,17\"",
+      "id": "57",
+      "ContentType": "Item",
+      "Modified": "2023-04-13T03:53:26Z",
+      "Created": "2021-10-13T02:11:45Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "17",
+      "_UIVersionString": "17.0",
+      "Attachments": false,
+      "Edit": "",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "PRO WINES PTE. LTD.",
+      "vintraceid": "388",
+      "SalesType": "Export",
+      "SalesPriceListName": "PRO Wine",
+      "AccountCode": "Asia Sales (8400)",
+      "Stack": "Export",
+      "Container": "20 Ft",
+      "salesRegionCode": "Asia Sales",
+      "Terms": "90 Days",
+      "Currency": "NZD",
+      "Country": "Singapore",
+      "ThisMonth": "Green",
+      "LastMonth": "Green",
+      "Comments": "All wine now sent to Singapore Airlines",
+      "EntryPort": "Singapore"
+    }
+  },
+  {
+    "@odata.etag": "\"379d8869-1347-46a0-9f7e-9ca280b05006,20\"",
+    "createdDateTime": "2021-10-13T03:14:10Z",
+    "eTag": "\"379d8869-1347-46a0-9f7e-9ca280b05006,20\"",
+    "id": "58",
+    "lastModifiedDateTime": "2023-09-24T20:25:24Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/58_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": { "email": "dave@rfe.co.nz", "id": "107417a5-bd51-4613-a5d7-e698f358a3d9", "displayName": "Dave Kenny" }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('58')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"379d8869-1347-46a0-9f7e-9ca280b05006,20\"",
+      "id": "58",
+      "ContentType": "Item",
+      "Modified": "2023-09-24T20:25:24Z",
+      "Created": "2021-10-13T03:14:10Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "17",
+      "_UIVersionString": "20.0",
+      "Attachments": false,
+      "Edit": "",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "A J Trading Limited Co",
+      "vintraceid": "219",
+      "SalesType": "Export",
+      "SalesPriceListName": "A J Trading - Vietnam",
+      "AccountCode": "Asia Sales (8400)",
+      "Stack": "Export",
+      "Container": "LCL",
+      "salesRegionCode": "Asia Sales",
+      "Terms": "90 Days",
+      "Currency": "NZD",
+      "Country": "Vietnam",
+      "ThisMonth": "Green",
+      "LastMonth": "Green",
+      "Comments": "Nothing budgeted till October",
+      "EntryPort": "Vietnam, Phuoc Long ICD",
+      "ShippingTerms": "90 days"
+    }
+  },
+  {
+    "@odata.etag": "\"e58520cd-e813-40d5-9b60-e331e1248a96,34\"",
+    "createdDateTime": "2022-01-12T01:04:58Z",
+    "eTag": "\"e58520cd-e813-40d5-9b60-e331e1248a96,34\"",
+    "id": "60",
+    "lastModifiedDateTime": "2023-10-06T01:45:57Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/60_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": { "email": "dave@rfe.co.nz", "id": "107417a5-bd51-4613-a5d7-e698f358a3d9", "displayName": "Dave Kenny" }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('60')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"e58520cd-e813-40d5-9b60-e331e1248a96,34\"",
+      "id": "60",
+      "ContentType": "Item",
+      "Modified": "2023-10-06T01:45:57Z",
+      "Created": "2022-01-12T01:04:58Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "17",
+      "_UIVersionString": "34.0",
+      "Attachments": false,
+      "Edit": "",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "Endeavour Group International (NZ) Ltd",
+      "vintraceid": "774",
+      "SalesType": "Retail",
+      "SalesPriceListName": "NZ Direct",
+      "AccountCode": "Bulk Wine",
+      "Stack": "Export",
+      "Container": "LCL",
+      "salesRegionCode": "Bulk Wine Sales Export",
+      "Terms": "90 Days",
+      "Currency": "NZD",
+      "Country": "Australia",
+      "NormalLoadQty": "1960",
+      "ThisMonth": "Orange",
+      "LastMonth": "Green",
+      "Comments": "Reasonable sales depletions for September (albeit not what we were promised). Potentially need container WR in November. DK been in touch with their marketing team looking at support options in store. Is very costly.",
+      "EntryPort": "Melbourne",
+      "ContainerTracking": "No",
+      "SpecialDocs": "Cargo net required",
+      "ShippingTerms": "90 day terms - FOB Nelson",
+      "ContainerLoadMethod": " Mandatory Cargo Net required for ALL orders"
+    }
+  },
+  {
+    "@odata.etag": "\"135bb6d3-a3b2-4a34-8df7-aac1c9b02ca1,24\"",
+    "createdDateTime": "2022-02-10T18:41:31Z",
+    "eTag": "\"135bb6d3-a3b2-4a34-8df7-aac1c9b02ca1,24\"",
+    "id": "61",
+    "lastModifiedDateTime": "2023-10-06T01:34:49Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/61_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": { "email": "dave@rfe.co.nz", "id": "107417a5-bd51-4613-a5d7-e698f358a3d9", "displayName": "Dave Kenny" }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('61')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"135bb6d3-a3b2-4a34-8df7-aac1c9b02ca1,24\"",
+      "id": "61",
+      "ContentType": "Item",
+      "Title": "D D 21 Co.,Ltd",
+      "Modified": "2023-10-06T01:34:49Z",
+      "Created": "2022-02-10T18:41:31Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "17",
+      "_UIVersionString": "24.0",
+      "Attachments": false,
+      "Edit": "",
+      "LinkTitleNoMenu": "D D 21 Co.,Ltd",
+      "LinkTitle": "D D 21 Co.,Ltd",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "D D 21 Co.,Ltd",
+      "vintraceid": "781",
+      "SalesType": "Export",
+      "SalesPriceListName": "Easy Wine",
+      "AccountCode": "Asia Sales (8400)",
+      "Stack": "Export",
+      "Container": "20 Ft",
+      "salesRegionCode": "Asia Sales (8400)",
+      "Terms": "Pre-Paid",
+      "Currency": "NZD",
+      "Country": "Thailand",
+      "ThisMonth": "Orange",
+      "LastMonth": "Green",
+      "Comments": "A quiet start, was expecting more. Can turn around quite quickly though. Have struggled to get the shipment away. DK to have a phone catch up with JC.",
+      "EntryPort": "Bankgkok",
+      "ContainerTracking": "No",
+      "DocumentsRequired": "Francini Invoice (Dave)\nCertificate of Origin via Marborough Chamber of Commerce.\nInvoice + Proforma and Packing List\nCerts of Analysis\nFront & Back labels\nSend all docs via email for approval before finalising. \nNo originals required."
+    }
+  },
+  {
+    "@odata.etag": "\"bf817ef9-306c-4a28-81a1-ca85d2f2953c,22\"",
+    "createdDateTime": "2022-04-09T04:55:41Z",
+    "eTag": "\"bf817ef9-306c-4a28-81a1-ca85d2f2953c,22\"",
+    "id": "62",
+    "lastModifiedDateTime": "2023-10-06T01:50:47Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/62_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": { "email": "dave@rfe.co.nz", "id": "107417a5-bd51-4613-a5d7-e698f358a3d9", "displayName": "Dave Kenny" }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('62')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"bf817ef9-306c-4a28-81a1-ca85d2f2953c,22\"",
+      "id": "62",
+      "ContentType": "Item",
+      "Modified": "2023-10-06T01:50:47Z",
+      "Created": "2022-04-09T04:55:41Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "17",
+      "_UIVersionString": "22.0",
+      "Attachments": false,
+      "Edit": "",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "Gathered Wine",
+      "vintraceid": "799",
+      "SalesType": "Export",
+      "SalesPriceListName": "Gathered Wine",
+      "AccountCode": "Aust Sales - QLD (8310)",
+      "Stack": "Export",
+      "Container": "20 Ft",
+      "salesRegionCode": "Aust Sales - QLD",
+      "Terms": "90 Days",
+      "Currency": "AUD",
+      "Country": "Australia",
+      "ThisMonth": "Green",
+      "LastMonth": "Green",
+      "Comments": "PO dispatched putting them ahead of budget. Strong budget for October so will fall slightly behind. Parky to catch up with them in Noosa",
+      "EntryPort": "Brisbane",
+      "ContainerTracking": "No"
+    }
+  },
+  {
+    "@odata.etag": "\"af6e6f92-9af5-4ef7-a3a3-ee2dbb043faf,23\"",
+    "createdDateTime": "2022-08-24T04:08:43Z",
+    "eTag": "\"af6e6f92-9af5-4ef7-a3a3-ee2dbb043faf,23\"",
+    "id": "63",
+    "lastModifiedDateTime": "2023-10-06T01:48:51Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/63_.000",
+    "createdBy": {
+      "user": {
+        "email": "Lindsay@rfe.co.nz",
+        "id": "e58b3adb-953b-43ad-8c80-880f5821cd45",
+        "displayName": "Lindsay Parkinson"
+      }
+    },
+    "lastModifiedBy": {
+      "user": { "email": "dave@rfe.co.nz", "id": "107417a5-bd51-4613-a5d7-e698f358a3d9", "displayName": "Dave Kenny" }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('63')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"af6e6f92-9af5-4ef7-a3a3-ee2dbb043faf,23\"",
+      "id": "63",
+      "ContentType": "Item",
+      "Title": "Federal Merchants & Co. Ltd",
+      "Modified": "2023-10-06T01:48:51Z",
+      "Created": "2022-08-24T04:08:43Z",
+      "AuthorLookupId": "16",
+      "EditorLookupId": "17",
+      "_UIVersionString": "23.0",
+      "Attachments": false,
+      "Edit": "",
+      "LinkTitleNoMenu": "Federal Merchants & Co. Ltd",
+      "LinkTitle": "Federal Merchants & Co. Ltd",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "Federal Merchants & Co. Ltd",
+      "vintraceid": "126",
+      "SalesType": "Domestic",
+      "SalesPriceListName": "Federal Merchants",
+      "AccountCode": "NZ Distributor (8500)",
+      "Stack": "Chep NZ",
+      "Container": "LCL",
+      "salesRegionCode": "NZ Distributor",
+      "Terms": "30 Days",
+      "Currency": "NZD",
+      "Country": "New Zealand",
+      "ThisMonth": "Green",
+      "LastMonth": "Green",
+      "Comments": "A strong month helped by sales of 2nd tier brands to FWDC.   Still looking at an on-premise brand option for their team. ",
+      "EntryPort": "N/A",
+      "ContainerTracking": "No"
+    }
+  },
+  {
+    "@odata.etag": "\"48298372-ec1b-42f9-800c-260c4be1f9d1,10\"",
+    "createdDateTime": "2022-08-24T04:11:03Z",
+    "eTag": "\"48298372-ec1b-42f9-800c-260c4be1f9d1,10\"",
+    "id": "64",
+    "lastModifiedDateTime": "2023-10-06T01:32:38Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/64_.000",
+    "createdBy": {
+      "user": {
+        "email": "Lindsay@rfe.co.nz",
+        "id": "e58b3adb-953b-43ad-8c80-880f5821cd45",
+        "displayName": "Lindsay Parkinson"
+      }
+    },
+    "lastModifiedBy": {
+      "user": { "email": "dave@rfe.co.nz", "id": "107417a5-bd51-4613-a5d7-e698f358a3d9", "displayName": "Dave Kenny" }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('64')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"48298372-ec1b-42f9-800c-260c4be1f9d1,10\"",
+      "id": "64",
+      "ContentType": "Item",
+      "Title": "Cellar Door",
+      "Modified": "2023-10-06T01:32:38Z",
+      "Created": "2022-08-24T04:11:03Z",
+      "AuthorLookupId": "16",
+      "EditorLookupId": "17",
+      "_UIVersionString": "10.0",
+      "Attachments": false,
+      "Edit": "",
+      "LinkTitleNoMenu": "Cellar Door",
+      "LinkTitle": "Cellar Door",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "Cellar Door",
+      "vintraceid": "163",
+      "SalesType": "Domestic",
+      "SalesPriceListName": "Cellar Door",
+      "AccountCode": "Cellar Door",
+      "Stack": "Loose",
+      "Container": "LCL",
+      "salesRegionCode": "NZ Distributor",
+      "Terms": "30 Days",
+      "Currency": "NZD",
+      "Country": "New Zealand",
+      "ThisMonth": "Orange",
+      "LastMonth": "Green",
+      "Comments": "Not quite where I had budgeted us to be, based on previous sales.",
+      "EntryPort": "N/A"
+    }
+  },
+  {
+    "@odata.etag": "\"082adf3a-2f9c-4289-b70d-d487d5b68cc8,18\"",
+    "createdDateTime": "2022-09-27T01:50:35Z",
+    "eTag": "\"082adf3a-2f9c-4289-b70d-d487d5b68cc8,18\"",
+    "id": "65",
+    "lastModifiedDateTime": "2023-09-11T03:54:32Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/65_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": { "email": "dave@rfe.co.nz", "id": "107417a5-bd51-4613-a5d7-e698f358a3d9", "displayName": "Dave Kenny" }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('65')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"082adf3a-2f9c-4289-b70d-d487d5b68cc8,18\"",
+      "id": "65",
+      "ContentType": "Item",
+      "Modified": "2023-09-11T03:54:32Z",
+      "Created": "2022-09-27T01:50:35Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "17",
+      "_UIVersionString": "18.0",
+      "Attachments": false,
+      "Edit": "",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "Laithwaites Wine",
+      "vintraceid": "401",
+      "SalesType": "Domestic",
+      "SalesPriceListName": "Laithwaite NZ",
+      "AccountCode": "NZ Direct Sales (8510)",
+      "Stack": "Export",
+      "Container": "20 Ft",
+      "salesRegionCode": "8510",
+      "Terms": "90 Days",
+      "Currency": "NZD",
+      "Country": "New Zealand",
+      "ThisMonth": "Green",
+      "LastMonth": "Green",
+      "Comments": "Have 2 pallets of 2022 still to order (off-loaded 2 pallets onto Australia). Not budgeted till December.",
+      "ContainerTracking": "No"
+    }
+  },
+  {
+    "@odata.etag": "\"d51df0fe-ce45-4eb1-926b-1d0482756502,16\"",
+    "createdDateTime": "2022-09-28T21:11:12Z",
+    "eTag": "\"d51df0fe-ce45-4eb1-926b-1d0482756502,16\"",
+    "id": "66",
+    "lastModifiedDateTime": "2023-10-06T02:00:55Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/66_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": { "email": "dave@rfe.co.nz", "id": "107417a5-bd51-4613-a5d7-e698f358a3d9", "displayName": "Dave Kenny" }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('66')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"d51df0fe-ce45-4eb1-926b-1d0482756502,16\"",
+      "id": "66",
+      "ContentType": "Item",
+      "Modified": "2023-10-06T02:00:55Z",
+      "Created": "2022-09-28T21:11:12Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "17",
+      "_UIVersionString": "16.0",
+      "Attachments": false,
+      "Edit": "",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "PT Meisindo Karya Semesta",
+      "vintraceid": "820",
+      "SalesType": "Export",
+      "SalesPriceListName": "Meisindo",
+      "AccountCode": "Asia Sales (8400)",
+      "Stack": "Export",
+      "Container": "LCL",
+      "salesRegionCode": "Asia Sales",
+      "Terms": "90 Days",
+      "Currency": "NZD",
+      "Country": "Indonesia",
+      "ThisMonth": "Green",
+      "LastMonth": "Green",
+      "Comments": "All good. DK locked in to visit in November. ",
+      "EntryPort": "Jakarta",
+      "ContainerTracking": "No"
+    }
+  },
+  {
+    "@odata.etag": "\"ac6c2874-47fa-4136-9a9d-707952ed2b8d,19\"",
+    "createdDateTime": "2022-12-05T21:22:26Z",
+    "eTag": "\"ac6c2874-47fa-4136-9a9d-707952ed2b8d,19\"",
+    "id": "67",
+    "lastModifiedDateTime": "2023-10-06T01:39:21Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/67_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": { "email": "dave@rfe.co.nz", "id": "107417a5-bd51-4613-a5d7-e698f358a3d9", "displayName": "Dave Kenny" }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('67')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"ac6c2874-47fa-4136-9a9d-707952ed2b8d,19\"",
+      "id": "67",
+      "ContentType": "Item",
+      "Title": "ECM de Vinos SA de CV",
+      "Modified": "2023-10-06T01:39:21Z",
+      "Created": "2022-12-05T21:22:26Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "17",
+      "_UIVersionString": "19.0",
+      "Attachments": false,
+      "Edit": "",
+      "LinkTitleNoMenu": "ECM de Vinos SA de CV",
+      "LinkTitle": "ECM de Vinos SA de CV",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "ECM de Vinos SA de CV",
+      "vintraceid": "812",
+      "SalesType": "Export",
+      "SalesPriceListName": "ECM de Vinos",
+      "AccountCode": "Mexico - ECM de Vinos (8175)",
+      "Stack": "Slip Sheet",
+      "Container": "LCL",
+      "salesRegionCode": "Mexico",
+      "Terms": "90 Days",
+      "Currency": "USD",
+      "Country": "Mexico",
+      "InvoiceContact_x0028_s_x0029_": "Alberto Cubilla",
+      "ThisMonth": "Green",
+      "LastMonth": "Green",
+      "Comments": "July was their first month selling. Have found out June-Sept is their low season. The wine has been very positively received. By end of Nov we will have a better reading.",
+      "EntryPort": "Manzanillo",
+      "ContainerTracking": "No"
+    }
+  },
+  {
+    "@odata.etag": "\"5613437f-6738-471d-b9f1-3cab99658f83,8\"",
+    "createdDateTime": "2023-08-11T02:37:34Z",
+    "eTag": "\"5613437f-6738-471d-b9f1-3cab99658f83,8\"",
+    "id": "68",
+    "lastModifiedDateTime": "2023-10-06T01:57:44Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/68_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": { "email": "dave@rfe.co.nz", "id": "107417a5-bd51-4613-a5d7-e698f358a3d9", "displayName": "Dave Kenny" }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('68')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"5613437f-6738-471d-b9f1-3cab99658f83,8\"",
+      "id": "68",
+      "ContentType": "Item",
+      "Title": "Mack & Schuhle Inc",
+      "Modified": "2023-10-06T01:57:44Z",
+      "Created": "2023-08-11T02:37:34Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "17",
+      "_UIVersionString": "8.0",
+      "Attachments": false,
+      "Edit": "",
+      "LinkTitleNoMenu": "Mack & Schuhle Inc",
+      "LinkTitle": "Mack & Schuhle Inc",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "Mack & Schuhle Inc",
+      "vintraceid": "840",
+      "SalesType": "Export",
+      "SalesPriceListName": "Mack & Schuhle",
+      "AccountCode": "USA Sales - Mack & Schuhle",
+      "Stack": "Export",
+      "Container": "40 Ft",
+      "salesRegionCode": "USA Sales - Mack & Schuhle",
+      "Terms": "90 Days",
+      "Currency": "USD",
+      "Country": "USA",
+      "InvoiceContact_x0028_s_x0029_": "USA Sales - Mack & Schuhle",
+      "ThisMonth": "Green",
+      "LastMonth": "Green",
+      "Comments": "Mack and Schuhle have now placed PO’s for 15 containers (22,000 cases) through to early November. Sunshine Bay SB sales are still relatively strong given the issues we have with GKS, averaging 1,200 cases per week. Aldi have also indicated they maybe keen to run the Pinot Gris program later next year. Samples have been sent.",
+      "EntryPort": "New York",
+      "ContainerTracking": "Yes",
+      "ContainerLoadMethod": "Export pallets only"
+    }
+  },
+  {
+    "@odata.etag": "\"cadeb829-24e3-47b6-ab5d-31b8b6478123,9\"",
+    "createdDateTime": "2023-09-25T14:14:13Z",
+    "eTag": "\"cadeb829-24e3-47b6-ab5d-31b8b6478123,9\"",
+    "id": "71",
+    "lastModifiedDateTime": "2023-10-06T01:53:12Z",
+    "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/71_.000",
+    "createdBy": {
+      "user": {
+        "email": "Daniel@rfe.co.nz",
+        "id": "d63851a9-f37d-4b0e-9fc5-2104f417123e",
+        "displayName": "Daniel De Lucca"
+      }
+    },
+    "lastModifiedBy": {
+      "user": { "email": "dave@rfe.co.nz", "id": "107417a5-bd51-4613-a5d7-e698f358a3d9", "displayName": "Dave Kenny" }
+    },
+    "parentReference": {
+      "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
+      "siteId": "wairauriverwines.sharepoint.com,50474093-688d-40da-bdf2-f6f537abc317,fe3245dd-150d-4f6c-9b7c-bdae642a7cd9"
+    },
+    "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
+    "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('71')/fields/$entity",
+    "fields": {
+      "@odata.etag": "\"cadeb829-24e3-47b6-ab5d-31b8b6478123,9\"",
+      "id": "71",
+      "ContentType": "Item",
+      "Modified": "2023-10-06T01:53:12Z",
+      "Created": "2023-09-25T14:14:13Z",
+      "AuthorLookupId": "13",
+      "EditorLookupId": "17",
+      "_UIVersionString": "9.0",
+      "Attachments": false,
+      "Edit": "",
+      "ItemChildCount": "0",
+      "FolderChildCount": "0",
+      "_ComplianceFlags": "",
+      "_ComplianceTag": "",
+      "_ComplianceTagWrittenTime": "",
+      "_ComplianceTagUserId": "",
+      "Name": "King Timyee (Holdings) Limited",
+      "vintraceid": "847",
+      "SalesType": "Export",
+      "SalesPriceListName": "King Timyee",
+      "AccountCode": "Asia Sales (8400)",
+      "Stack": "Export",
+      "Container": "20 Ft",
+      "salesRegionCode": "Asia Sales",
+      "Terms": "90 Days",
+      "Currency": "NZD",
+      "Country": "Hong Kong",
+      "NormalLoadQty": "1680 x 6pk",
+      "ThisMonth": "Green",
+      "Comments": "New customer (Best 360 supermarkets, HK). DK to visit next month. Via Victor",
+      "EntryPort": "Hong Kong",
+      "ContainerTracking": "No",
+      "ShippingTerms": "FOB Nelson",
+      "ContainerLoadMethod": "No liner required\n\n10 x pallets @ 112 x six packs stacked on 10 x pallets @ 56 x six packs per pallet",
+      "DocumentsRequired": "100% prepayment required"
+    }
+  }
+]
