@@ -1,83 +1,106 @@
-import { PageCollection, PageIterator, PageIteratorCallback } from '@microsoft/microsoft-graph-client';
-import { InitGraphClient } from './Client';
-import { getSharepointListID, getSharepointSiteID } from './sitesList';
+import { PageCollection, PageIterator, PageIteratorCallback } from '@microsoft/microsoft-graph-client'
+import { InitGraphClient } from './Client'
+import { getGraphQueryParams } from './newTypes'
 
-type OrderType = 'asc' | 'desc';
+type OrderType = 'asc' | 'desc'
 
-export interface GraphResponse {
-  odataContext: string;
-  odataNextLink: string;
-  microsoftGraphTips: string;
-  value: Value[];
+type QueryParams = {
+  listName: string // full list name like appears in sharepoint website
+  getAll?: boolean // if true, will return all items in the list
+  filterQuery?: string // filter query to be used in the request
+  orderBy?: string // column name that will be used to order the response
+  orderType?: OrderType // asc or desc
 }
 
-export interface Value {
-  odataEtag: string;
-  createdDateTime: Date;
-  eTag: string;
-  id: string;
-  lastModifiedDateTime: Date;
-  webURL: string;
-  createdBy: EdBy;
-  lastModifiedBy: EdBy;
-  parentReference: ParentReference;
-  contentType: ContentType;
-  fieldsOdataContext: string;
-  fields: Fields;
+type GraphResponse = {
+  [key: string]: any
+  fields: object
 }
 
-export interface ContentType {
-  id: string;
-  name: string;
-}
-
-export interface EdBy {
-  user: User;
-}
-
-export interface User {
-  email: string;
-  id: string;
-  displayName: string;
-}
-
-export interface Fields {
-  [key: string]: string | number | boolean | null;
-}
-
-export interface ParentReference {
-  id: string;
-  siteID: string;
-}
-
-export async function getAllSharepointItems(sharepointSite: string, sharepointList: string) {
+export async function retrieveGraphData(
+  siteID: string,
+  listID: string,
+  filterQuery: string = '',
+  orderBy: string | undefined = undefined,
+  orderType: OrderType | undefined = undefined,
+) {
   try {
-    let listID = getSharepointListID(sharepointList);
-    let siteID = getSharepointSiteID(sharepointSite);
-    if (!listID || !siteID) {
-      throw new Error('Invalid site or list name');
+    const client = await InitGraphClient()
+    let response: PageCollection
+    if (filterQuery) {
+      // TODO CHECK IF FILTER QUERY IS VALID AND IF NOT THROW ERROR info in https://learn.microsoft.com/en-us/graph/filter-query-parameter?tabs=http
+      response = await client
+        .api(`sites/${siteID}/lists/${listID}/items`)
+        .expand('fields')
+        .filter(filterQuery)
+        .orderby('createdDateTime')
+        .get()
+    } else {
+      response = await client
+        .api(`sites/${siteID}/lists/${listID}/items`)
+        .expand('fields')
+        .orderby('createdDateTime')
+        .get()
     }
 
-    const client = await InitGraphClient();
-    console.log('url createad is : ' + `sites/${siteID}/lists/${listID}/items`);
-    const response: PageCollection = await client.api(`sites/${siteID}/lists/${listID}/items`).expand('fields').get();
-    console.log('status:', response.status);
-    const responseValue: any[] = []; // TODO: type this response depending on the list
+    const responseValue: GraphResponse[] = [] // TODO: type this response depending on the list
     let callback: PageIteratorCallback = (data) => {
-      responseValue.push(data);
-      return true;
-    };
-    let pageIterator = new PageIterator(client, response, callback);
-    await pageIterator.iterate();
-    return responseValue;
+      responseValue.push(data)
+      return true
+    }
+    let pageIterator = new PageIterator(client, response, callback)
+    await pageIterator.iterate()
   } catch (err) {
-    console.error(err);
-    throw err;
+    console.error(err)
+    throw err
   }
 }
 
-function orderResponse(response: GraphResponse, column: string = '', orderType: OrderType = 'asc'): object[] {
-  // TODO
+export async function getAllSharepointItems(sharepointList: string) {
+  try {
+    const queryIDs = getGraphQueryParams(sharepointList)
+    if (!queryIDs) {
+      throw new Error('Invalid list name')
+    }
+    const { listID, siteID } = queryIDs
+    if (!listID || !siteID) {
+      throw new Error('Invalid site or list name')
+    }
+    const response = await retrieveGraphData(siteID, listID)
 
-  return [{}];
+    return response
+  } catch (err) {
+    console.error('Error happend in the getAllSharepointItems function', err)
+    throw err
+  }
+}
+
+function orderResponse(response: GraphResponse[], column: string = '', orderType: OrderType = 'asc'): object[] {
+  const orderResponse = extractFields(response)
+
+  // TODO CHECK IF COLUMN EXISTS AND ORDER BASED BY COLUMN IN ORDER TYPE
+  if (column !== '') {
+    orderResponse.sort((a, b) => {
+      // check for null values
+      if (a || a[column] === null) {
+        return 1
+      }
+      if (b || b[column] === null) {
+        return -1
+      }
+      if (orderType === 'asc') {
+        return a[column] > b[column] ? 1 : -1
+      } else {
+        return a[column] < b[column] ? 1 : -1
+      }
+    })
+  }
+  return orderResponse
+}
+
+function extractFields(response: GraphResponse[]): object[] {
+  const fields = response.map((item) => {
+    return item.fields
+  })
+  return fields
 }

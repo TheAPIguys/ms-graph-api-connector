@@ -956,11 +956,11 @@
     }
   },
   {
-    "@odata.etag": "\"ad4f31ee-8b4b-4836-92e5-8319517c187f,48\"",
+    "@odata.etag": "\"ad4f31ee-8b4b-4836-92e5-8319517c187f,49\"",
     "createdDateTime": "2021-10-13T02:07:55Z",
-    "eTag": "\"ad4f31ee-8b4b-4836-92e5-8319517c187f,48\"",
+    "eTag": "\"ad4f31ee-8b4b-4836-92e5-8319517c187f,49\"",
     "id": "36",
-    "lastModifiedDateTime": "2023-10-06T01:31:05Z",
+    "lastModifiedDateTime": "2023-11-01T21:59:48Z",
     "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/36_.000",
     "createdBy": {
       "user": {
@@ -970,7 +970,11 @@
       }
     },
     "lastModifiedBy": {
-      "user": { "email": "dave@rfe.co.nz", "id": "107417a5-bd51-4613-a5d7-e698f358a3d9", "displayName": "Dave Kenny" }
+      "user": {
+        "email": "Carol-Ann@rfe.co.nz",
+        "id": "8b541061-ff9e-4269-8f90-ba9e060c01ef",
+        "displayName": "Carol-Ann Herbert"
+      }
     },
     "parentReference": {
       "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
@@ -979,14 +983,14 @@
     "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
     "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('36')/fields/$entity",
     "fields": {
-      "@odata.etag": "\"ad4f31ee-8b4b-4836-92e5-8319517c187f,48\"",
+      "@odata.etag": "\"ad4f31ee-8b4b-4836-92e5-8319517c187f,49\"",
       "id": "36",
       "ContentType": "Item",
-      "Modified": "2023-10-06T01:31:05Z",
+      "Modified": "2023-11-01T21:59:48Z",
       "Created": "2021-10-13T02:07:55Z",
       "AuthorLookupId": "13",
-      "EditorLookupId": "17",
-      "_UIVersionString": "48.0",
+      "EditorLookupId": "34",
+      "_UIVersionString": "49.0",
       "Attachments": false,
       "Edit": "",
       "ItemChildCount": "0",
@@ -1015,7 +1019,7 @@
       "SpecialDocs": "VI1's required",
       "ShippingTerms": "FOB 90 days",
       "ContainerLoadMethod": "First Voyage - 4 way pallets\nEnzed - Export pallets\nCloud Cover - Chep UK pallets\nNo liner required",
-      "DocumentsRequired": "WECS - VI1's required\nOrigin Declaration"
+      "DocumentsRequired": "WECS - VI1's also required\nChamber of Commerce - Certificate of Origin \nInvoice & PL\nWine Status Reports\nFinal BOL\n"
     }
   },
   {
@@ -1076,11 +1080,11 @@
     }
   },
   {
-    "@odata.etag": "\"fd022909-baf3-4dbf-93cb-f6d502fd9b48,23\"",
+    "@odata.etag": "\"fd022909-baf3-4dbf-93cb-f6d502fd9b48,27\"",
     "createdDateTime": "2021-10-13T02:08:13Z",
-    "eTag": "\"fd022909-baf3-4dbf-93cb-f6d502fd9b48,23\"",
+    "eTag": "\"fd022909-baf3-4dbf-93cb-f6d502fd9b48,27\"",
     "id": "38",
-    "lastModifiedDateTime": "2023-10-06T01:42:54Z",
+    "lastModifiedDateTime": "2023-11-01T21:52:43Z",
     "webUrl": "https://wairauriverwines.sharepoint.com/teams/RFE-Sales/Lists/Customer%20List/38_.000",
     "createdBy": {
       "user": {
@@ -1090,7 +1094,11 @@
       }
     },
     "lastModifiedBy": {
-      "user": { "email": "dave@rfe.co.nz", "id": "107417a5-bd51-4613-a5d7-e698f358a3d9", "displayName": "Dave Kenny" }
+      "user": {
+        "email": "Carol-Ann@rfe.co.nz",
+        "id": "8b541061-ff9e-4269-8f90-ba9e060c01ef",
+        "displayName": "Carol-Ann Herbert"
+      }
     },
     "parentReference": {
       "id": "3392db06-1f37-4b78-b639-0e8fce2ad236",
@@ -1099,14 +1107,14 @@
     "contentType": { "id": "0x0100433EA2BD4D64EE48B3CF874ADD24A74A000F9E72AA51DB9542A6D8A2FEB9F6298C", "name": "Item" },
     "fields@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('wairauriverwines.sharepoint.com%2C50474093-688d-40da-bdf2-f6f537abc317%2Cfe3245dd-150d-4f6c-9b7c-bdae642a7cd9')/lists('513b179f-017c-4a92-bbc3-dbd96a5e7186')/items('38')/fields/$entity",
     "fields": {
-      "@odata.etag": "\"fd022909-baf3-4dbf-93cb-f6d502fd9b48,23\"",
+      "@odata.etag": "\"fd022909-baf3-4dbf-93cb-f6d502fd9b48,27\"",
       "id": "38",
       "ContentType": "Item",
-      "Modified": "2023-10-06T01:42:54Z",
+      "Modified": "2023-11-01T21:52:43Z",
       "Created": "2021-10-13T02:08:13Z",
       "AuthorLookupId": "13",
-      "EditorLookupId": "17",
-      "_UIVersionString": "23.0",
+      "EditorLookupId": "34",
+      "_UIVersionString": "27.0",
       "Attachments": false,
       "Edit": "",
       "ItemChildCount": "0",
@@ -1131,7 +1139,8 @@
       "Comments": "Well ahead of budget due to big sale of Pinot Noir into Macau. Sales outside of this are still on the increase. DK to visit both HK and Macau as part of the EMW 20yr celebrations. Just received another PO.",
       "EntryPort": "Hong Kong",
       "ContainerTracking": "No",
-      "DocumentsRequired": "Originals to ship to customer:\nInvoice & Packing List \nWEC's\nBottling Declaration\nCert of Free Sale\nCOC COO\nWine Status Reports\nFinal BOL"
+      "ShippingTerms": "FOB",
+      "DocumentsRequired": "No originals required as at 01/11/2023\nInvoice & Packing List \nWEC's\nChamber of Commerce - COO\nFinal BOL"
     }
   },
   {

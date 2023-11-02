@@ -14,7 +14,7 @@ describe('Unit test for app handler', function () {
 
 describe('Unit test for app handler', function () {
   it('verifies successful response', async () => {
-    const r = await getAllSharepointItems('sales', 'Customers List');
+    const r = await getAllSharepointItems('Customers List');
     console.log('test');
     // save response into a json file
     fs.writeFileSync('response.json', JSON.stringify(r));
