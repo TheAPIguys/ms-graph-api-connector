@@ -18,7 +18,7 @@ export async function processRequest(requestBody: RequestBody | undefined): Prom
   if (!requestBody.queryParams.listName) {
     throw new Error('No list name')
   }
-  if (requestBody.authCode === '1234') {
+  if (requestBody.authCode === process.env.AUTH_CODE) {
     if (isGetAll(requestBody)) {
       return await getAllSharepointItems(requestBody.queryParams)
     } else {

@@ -4,6 +4,13 @@ export enum ListID {
   'Customers Orders' = '29d921a4-3df8-479c-a5db-857a5986c9c0',
   'Order Items' = '205ef88a-79ac-4d2c-bccb-90dcccffd7f1',
   'Customers List' = '513b179f-017c-4a92-bbc3-dbd96a5e7186',
+  'Bottling Schedule' = '961a06e9-a8b9-4257-9ac4-045ae08e1ca4',
+  'Dry Good Orders' = '8d41e723-133e-4cfe-8d50-b6afb47df5ff',
+  'Pallet Dispatch Checklist' = '0026d96b-2468-4f60-9e65-26b8f9c852ed',
+  'Rework Schedule' = '40471fa4-3da9-4a8a-8a16-c42fb3ffb861',
+  'Containers List' = 'e01b40d2-77e1-4d97-814c-331f7fcdd612',
+  'Tracking Booking List' = 'a77c818d-20ce-4220-99c4-d35707d93519',
+  'Customer Allocation Master List' = '63b204b2-cea4-4336-a9ff-6d3fe2c1c0e3',
 }
 
 export enum SiteID {
@@ -15,13 +22,13 @@ export enum SiteID {
 }
 
 export type ListParams = {
-  listID: ListID;
-  siteID: SiteID;
-};
+  listID: ListID
+  siteID: SiteID
+}
 
 export type SharepointList = {
-  [key: string]: ListParams;
-};
+  [key: string]: ListParams
+}
 
 export const SharepointQueryList: SharepointList = {
   'Warehouse Map Inventory': {
@@ -44,8 +51,36 @@ export const SharepointQueryList: SharepointList = {
     listID: ListID['Customers List'],
     siteID: SiteID.sales,
   },
-};
+  'Bottling Schedule': {
+    listID: ListID['Bottling Schedule'],
+    siteID: SiteID.bottling,
+  },
+  'Dry Good Orders': {
+    listID: ListID['Dry Good Orders'],
+    siteID: SiteID.logistics,
+  },
+  'Pallet Dispatch Checklist': {
+    listID: ListID['Pallet Dispatch Checklist'],
+    siteID: SiteID.logistics,
+  },
+  'Rework Schedule': {
+    listID: ListID['Rework Schedule'],
+    siteID: SiteID.logistics,
+  },
+  'Containers List': {
+    listID: ListID['Containers List'],
+    siteID: SiteID.logistics,
+  },
+  'Tracking Booking List': {
+    listID: ListID['Tracking Booking List'],
+    siteID: SiteID.logistics,
+  },
+  'Customer Allocation Master List': {
+    listID: ListID['Customer Allocation Master List'],
+    siteID: SiteID.masterlist,
+  },
+}
 
 export function getGraphQueryParams(listName: string): ListParams | undefined {
-  return SharepointQueryList[listName];
+  return SharepointQueryList[listName]
 }

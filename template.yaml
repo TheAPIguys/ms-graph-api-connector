@@ -30,6 +30,7 @@ Resources:
           TENANT_ID: 71124398-4b74-4832-b48a-1c01fb46e497
           CLIENT_ID: a4318a83-8311-407d-b571-768aff5588de'
           CLIENT_SECRET: rid8Q~hZ13OKFa0HgH5ceYdyCzXv5Nm4HR_A-bLr
+          AUTHCODE: 1KaLmZYf8X5TBMb4MvVA5oOUrlwoSG # This is the auth code for the user
 
     Metadata: # Manage esbuild properties
       BuildMethod: esbuild

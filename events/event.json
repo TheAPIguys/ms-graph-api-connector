@@ -1,5 +1,5 @@
 {
-  "body": "{\"authCode\":\"1234\",\"queryParams\":{\"listName\":\"Customers List\",\"getAll\": true,\"orderBy\":\"Name\",\"orderType\":\"desc\"}}",
+  "body": "{\"authCode\":\"1KaLmZYf8X5TBMb4MvVA5oOUrlwoSG\",\"queryParams\":{\"listName\":\"Customers List\",\"getAll\": true,\"orderBy\":\"Name\",\"orderType\":\"desc\"}}",
   "resource": "/{proxy+}",
   "path": "/path/to/resource",
   "httpMethod": "POST",
