@@ -1,4 +1,5 @@
-import { APIGatewayProxyEvent, APIGatewayProxyResult } from 'aws-lambda';
+import { APIGatewayProxyEvent, APIGatewayProxyResult } from 'aws-lambda'
+import { processRequest } from './api-request/processRequest'
 
 /**
  *
@@ -11,22 +12,24 @@ import { APIGatewayProxyEvent, APIGatewayProxyResult } from 'aws-lambda';
  */
 
 export const lambdaHandler = async (event: APIGatewayProxyEvent): Promise<APIGatewayProxyResult> => {
-    const varEnv = process.env.CLIENT_ID;
-
-    try {
-        return {
-            statusCode: 200,
-            body: JSON.stringify({
-                message: 'hello world envVar:' + varEnv,
-            }),
-        };
-    } catch (err) {
-        console.log(err);
-        return {
-            statusCode: 500,
-            body: JSON.stringify({
-                message: 'some error happened',
-            }),
-        };
+  try {
+    const bodyRequest = JSON.parse(event.body || '{}')
+    console.log('Request Body: ', bodyRequest)
+    const response = await processRequest(bodyRequest)
+    return {
+      statusCode: 200,
+      body: JSON.stringify({
+        count: response.length,
+        data: response,
+      }),
     }
-};
+  } catch (err) {
+    console.log(err)
+    return {
+      statusCode: 500,
+      body: JSON.stringify({
+        message: err,
+      }),
+    }
+  }
+}
