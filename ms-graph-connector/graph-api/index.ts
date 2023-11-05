@@ -14,7 +14,6 @@ type QueryParams = {
 
 type GraphResponse = {
   [key: string]: any
-  fields: object
 }
 
 export async function retrieveGraphData(
@@ -27,7 +26,7 @@ export async function retrieveGraphData(
   try {
     const client = await InitGraphClient()
     let response: PageCollection
-    if (filterQuery) {
+    if (filterQuery !== '') {
       // TODO CHECK IF FILTER QUERY IS VALID AND IF NOT THROW ERROR info in https://learn.microsoft.com/en-us/graph/filter-query-parameter?tabs=http
       response = await client
         .api(`sites/${siteID}/lists/${listID}/items`)
@@ -50,15 +49,17 @@ export async function retrieveGraphData(
     }
     let pageIterator = new PageIterator(client, response, callback)
     await pageIterator.iterate()
+    return responseValue
   } catch (err) {
     console.error(err)
     throw err
   }
 }
 
-export async function getAllSharepointItems(sharepointList: string) {
+export async function getAllSharepointItems(queryParams: QueryParams) {
   try {
-    const queryIDs = getGraphQueryParams(sharepointList)
+    const queryIDs = getGraphQueryParams(queryParams.listName)
+    console.log('queryIDs', queryIDs)
     if (!queryIDs) {
       throw new Error('Invalid list name')
     }
@@ -67,7 +68,6 @@ export async function getAllSharepointItems(sharepointList: string) {
       throw new Error('Invalid site or list name')
     }
     const response = await retrieveGraphData(siteID, listID)
-
     return response
   } catch (err) {
     console.error('Error happend in the getAllSharepointItems function', err)
