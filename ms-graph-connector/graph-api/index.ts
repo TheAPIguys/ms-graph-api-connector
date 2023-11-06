@@ -128,10 +128,3 @@ function extractFields(response: GraphResponse[]): GraphResponse[] {
   })
   return fields
 }
-
-export async function filterDataTest(queryParams: QueryParams) {
-  let response = await getAllSharepointItems(queryParams)
-  return response.filter((item: { [key: string]: any }) => {
-    return item['Customer'] === 'Cold Storage Singapore (1983) Pte Ltd'
-  })
-}
