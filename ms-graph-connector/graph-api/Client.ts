@@ -4,6 +4,7 @@ import {
   TokenCredentialAuthenticationProvider,
   TokenCredentialAuthenticationProviderOptions,
 } from '@microsoft/microsoft-graph-client/authProviders/azureTokenCredentials'
+import { QueryParams, getAllSharepointItems } from '.'
 
 export async function InitGraphClient() {
   const tokenCredential = new ClientSecretCredential(

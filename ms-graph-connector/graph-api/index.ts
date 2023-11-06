@@ -8,8 +8,9 @@ export type QueryParams = {
   listName: string // full list name like appears in sharepoint website
   getAll?: boolean // if true, will return all items in the list
   id?: number // if id is provided, will return the item with the id
-  orderBy?: string // column name that will be used to order the response
+  orderBy?: string // column name that will be used t@ order the response
   orderType?: OrderType // asc or desc
+  filter?: boolean // filter the response by a column value
 }
 
 type GraphResponse = {
@@ -66,7 +67,7 @@ export async function getSharepointItemByID(queryParams: QueryParams) {
   }
 }
 
-export async function getAllSharepointItems(queryParams: QueryParams) {
+export async function getAllSharepointItems(queryParams: QueryParams): Promise<object[]> {
   try {
     const queryIDs = getGraphQueryParams(queryParams.listName)
     if (!queryIDs) {
@@ -87,7 +88,7 @@ export async function getAllSharepointItems(queryParams: QueryParams) {
 function orderResponse(
   response: GraphResponse[],
   column: string | undefined = undefined,
-  orderType: OrderType = 'asc',
+  orderType: OrderType | undefined = undefined,
 ): object[] {
   const orderResponse = extractFields(response)
 
@@ -111,7 +112,7 @@ function orderResponse(
     if (b[column] === null) {
       return -1
     }
-    if (orderType === 'asc') {
+    if (orderType === 'asc' || orderType === undefined) {
       return a[column] > b[column] ? 1 : -1
     } else {
       return a[column] < b[column] ? 1 : -1
@@ -126,4 +127,11 @@ function extractFields(response: GraphResponse[]): GraphResponse[] {
     return item.fields
   })
   return fields
+}
+
+export async function filterDataTest(queryParams: QueryParams) {
+  let response = await getAllSharepointItems(queryParams)
+  return response.filter((item: { [key: string]: any }) => {
+    return item['Customer'] === 'Cold Storage Singapore (1983) Pte Ltd'
+  })
 }

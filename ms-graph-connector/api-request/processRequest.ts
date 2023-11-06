@@ -1,4 +1,4 @@
-import { QueryParams, getAllSharepointItems, getSharepointItemByID } from '../graph-api/index'
+import { QueryParams, filterDataTest, getAllSharepointItems, getSharepointItemByID } from '../graph-api/index'
 
 export type RequestBody = {
   authCode: string
@@ -19,6 +19,9 @@ export async function processRequest(requestBody: RequestBody | undefined): Prom
     throw new Error('No list name')
   }
   if (requestBody.authCode === process.env.AUTH_CODE) {
+    if (!requestBody.queryParams.filter) {
+      return await filterDataTest(requestBody.queryParams)
+    }
     if (isGetAll(requestBody)) {
       return await getAllSharepointItems(requestBody.queryParams)
     } else {
