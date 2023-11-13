@@ -1,4 +1,9 @@
-import { QueryParams, getAllSharepointItems, getSharepointItemByID } from '../graph-api/index'
+import {
+  QueryParams,
+  getAllSharepointItems,
+  getMultipleQueriesSharepoint,
+  getSharepointItemByID,
+} from '../graph-api/index'
 import { InitGraphClient } from '../graph-api/Client'
 
 export type RequestBody = {
@@ -24,6 +29,11 @@ export async function processRequest(requestBody: RequestBody | undefined): Prom
   if (requestBody.authCode === process.env.AUTH_CODE) {
     if (isGetAll(requestBody)) {
       const client = await InitGraphClient()
+      // check if the query is for multiple lists
+      if (requestBody.queries) {
+        return await getMultipleQueriesSharepoint(client, requestBody.queries)
+      }
+
       return await getAllSharepointItems(client, requestBody.queryParams)
     } else {
       return await getSharepointItemByID(requestBody.queryParams)

@@ -129,9 +129,8 @@ function extractFields(response: GraphResponse[]): GraphResponse[] {
   return fields
 }
 
-export async function getMultipleQueriesSharepoint(listQueries: QueryParams[]) {
+export async function getMultipleQueriesSharepoint(client: Client, listQueries: QueryParams[]) {
   // TODO: implement this function to get multiple queries from sharepoint init the client once and then use it for all queries a want to use and promise all to get all the data
-  const client = await InitGraphClient()
   const response: GraphResponse[] = []
   const listPromises = listQueries.map(async (query) => {
     return getAllSharepointItems(client, query)
