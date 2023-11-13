@@ -5,6 +5,7 @@ export type RequestBody = {
   authCode: string
   MultipleQueries: boolean
   queryParams: QueryParams
+  queries?: QueryParams[]
 }
 
 export async function processRequest(requestBody: RequestBody | undefined): Promise<any> {

@@ -1,7 +1,6 @@
 import { Client, PageCollection, PageIterator, PageIteratorCallback } from '@microsoft/microsoft-graph-client'
 import { InitGraphClient } from './Client'
 import { getGraphQueryParams } from './newTypes'
-import { get } from 'http'
 
 type OrderType = 'asc' | 'desc'
 
