@@ -1,7 +1,9 @@
 import { QueryParams, getAllSharepointItems, getSharepointItemByID } from '../graph-api/index'
+import { InitGraphClient } from '../graph-api/Client'
 
 export type RequestBody = {
   authCode: string
+  MultipleQueries: boolean
   queryParams: QueryParams
 }
 
@@ -20,7 +22,8 @@ export async function processRequest(requestBody: RequestBody | undefined): Prom
   }
   if (requestBody.authCode === process.env.AUTH_CODE) {
     if (isGetAll(requestBody)) {
-      return await getAllSharepointItems(requestBody.queryParams)
+      const client = await InitGraphClient()
+      return await getAllSharepointItems(client, requestBody.queryParams)
     } else {
       return await getSharepointItemByID(requestBody.queryParams)
     }

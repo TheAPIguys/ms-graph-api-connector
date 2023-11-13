@@ -1,6 +1,7 @@
-import { PageCollection, PageIterator, PageIteratorCallback } from '@microsoft/microsoft-graph-client'
+import { Client, PageCollection, PageIterator, PageIteratorCallback } from '@microsoft/microsoft-graph-client'
 import { InitGraphClient } from './Client'
 import { getGraphQueryParams } from './newTypes'
+import { get } from 'http'
 
 type OrderType = 'asc' | 'desc'
 
@@ -18,13 +19,13 @@ type GraphResponse = {
 }
 
 export async function retrieveGraphData(
+  client: Client,
   siteID: string,
   listID: string,
   orderBy: string | undefined = undefined,
   orderType: OrderType | undefined = undefined,
 ) {
   try {
-    const client = await InitGraphClient()
     let response: PageCollection
     response = await client.api(`sites/${siteID}/lists/${listID}/items`).select('id').expand('fields').get()
     const responseValue: GraphResponse[] = []
@@ -67,7 +68,7 @@ export async function getSharepointItemByID(queryParams: QueryParams) {
   }
 }
 
-export async function getAllSharepointItems(queryParams: QueryParams): Promise<object[]> {
+export async function getAllSharepointItems(client: Client, queryParams: QueryParams): Promise<object[]> {
   try {
     const queryIDs = getGraphQueryParams(queryParams.listName)
     if (!queryIDs) {
@@ -77,7 +78,7 @@ export async function getAllSharepointItems(queryParams: QueryParams): Promise<o
     if (!listID || !siteID) {
       throw new Error('Invalid site or list name')
     }
-    const response = await retrieveGraphData(siteID, listID, queryParams.orderBy, queryParams.orderType)
+    const response = await retrieveGraphData(client, siteID, listID, queryParams.orderBy, queryParams.orderType)
     return response
   } catch (err) {
     console.error('Error happend in the getAllSharepointItems function', err)
@@ -127,4 +128,21 @@ function extractFields(response: GraphResponse[]): GraphResponse[] {
     return item.fields
   })
   return fields
+}
+
+export async function getMultipleQueriesSharepoint(listQueries: QueryParams[]) {
+  // TODO: implement this function to get multiple queries from sharepoint init the client once and then use it for all queries a want to use and promise all to get all the data
+  const client = await InitGraphClient()
+  const response: GraphResponse[] = []
+  const listPromises = listQueries.map(async (query) => {
+    return getAllSharepointItems(client, query)
+  })
+  const listResponses = await Promise.all(listPromises)
+  listResponses.forEach((listResponse) => {
+    listResponse.forEach((item) => {
+      response.push(item)
+    })
+  })
+
+  return response
 }
