@@ -20,9 +20,6 @@ export async function processRequest(requestBody: RequestBody | undefined): Prom
   if (!requestBody.authCode) {
     throw new Error('No auth code')
   }
-  if (!requestBody.queryParams || !requestBody.queries) {
-    throw new Error('No query params')
-  }
 
   if (requestBody.authCode === process.env.AUTH_CODE) {
     const client = await InitGraphClient()
@@ -33,7 +30,7 @@ export async function processRequest(requestBody: RequestBody | undefined): Prom
       case 'list':
         return await getAllSharepointItems(client, requestBody.queryParams)
       case 'multiple':
-        return await getMultipleQueriesSharepoint(client, requestBody.queries)
+        return await getMultipleQueriesSharepoint(client, requestBody.queries === undefined ? [] : requestBody.queries)
       default:
         throw new Error('Invalid query type')
     }
