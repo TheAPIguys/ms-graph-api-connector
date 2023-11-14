@@ -19,12 +19,10 @@ export async function processRequest(requestBody: RequestBody | undefined): Prom
   if (!requestBody.authCode) {
     throw new Error('No auth code')
   }
-  if (!requestBody.queryParams) {
+  if (!requestBody.queryParams || !requestBody.queries) {
     throw new Error('No query params')
   }
-  if (!requestBody.queryParams.listName) {
-    throw new Error('No list name')
-  }
+
   if (requestBody.authCode === process.env.AUTH_CODE) {
     if (isGetAll(requestBody)) {
       const client = await InitGraphClient()
