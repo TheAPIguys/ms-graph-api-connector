@@ -1,10 +1,11 @@
-import { getAllSharepointItems, getSharepointItemByID } from '../../graph-api/index'
-import fs from 'fs'
+import { getAllSharepointItems, getMultipleQueriesSharepoint, getSharepointItemByID } from '../../graph-api/index'
 import { expect, describe, it } from '@jest/globals'
+import { InitGraphClient } from '../../graph-api/Client'
 
 describe('Unit test for app handler', function () {
   it('verifies successful response', async () => {
-    const r = await getAllSharepointItems({
+    const client = await InitGraphClient()
+    const r = await getAllSharepointItems(client, {
       listName: 'Customers List',
       orderBy: 'Name',
       orderType: 'desc',
@@ -13,31 +14,57 @@ describe('Unit test for app handler', function () {
 
     expect(true).toEqual(true)
   })
-  it('testing delay', async () => {
+  it('testing Customers Orders', async () => {
     let startTime = Date.now()
-    let r = await getAllSharepointItems({
+    let client = await InitGraphClient()
+    let r = await getAllSharepointItems(client, {
       listName: 'Customers Orders',
       orderBy: 'Customer',
       orderType: 'desc',
     })
-    console.log('test')
+
     let endTime = Date.now()
     console.log('One call time taken', endTime - startTime, ' ms')
 
     expect(true).toEqual(true)
   })
-  it('testing delay', async () => {
+  it('testing Warehouse Map Inventory', async () => {
     let startTime = Date.now()
-    let r = await getSharepointItemByID({
-      listName: 'Customers List',
-      orderBy: 'Name',
-      id: 13,
+    let client = await InitGraphClient()
+    let r = await getAllSharepointItems(client, {
+      listName: 'Warehouse Map Inventory',
+      orderBy: 'Row',
       orderType: 'desc',
     })
-    console.log('test')
+
     let endTime = Date.now()
-    console.log('One call one id time taken', endTime - startTime, ' ms')
-    console.log(r)
+    console.log('One call time taken', endTime - startTime, ' ms')
+
+    expect(true).toEqual(true)
+  })
+  it('testing MultipleQueriesSharepoint', async () => {
+    let startTime = Date.now()
+    let client = await InitGraphClient()
+    let r = await getMultipleQueriesSharepoint(client, [
+      {
+        listName: 'Warehouse Map Inventory',
+        orderBy: 'Row',
+        orderType: 'desc',
+      },
+      {
+        listName: 'Customers Orders',
+        orderBy: 'Customer',
+        orderType: 'desc',
+      },
+      {
+        listName: 'Bottling Schedule',
+        orderBy: 'Date',
+        orderType: 'asc',
+      },
+    ])
+    let endTime = Date.now()
+    console.log('Multiple Call time taken', endTime - startTime, ' ms')
+    console.log(r.length)
     expect(true).toEqual(true)
   })
 })

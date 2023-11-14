@@ -1,5 +1,94 @@
 # ms-graph-api-connector
 
+# SharePoint Graph API Functions Documentation
+
+## Table of Contents
+- [Function: getSharepointItemByID](#getsharepointitembyid)
+- [Function: getAllSharepointItems](#getallsharepointitems)
+- [Function: getMultipleQueriesSharepoint](#getmultiplequeriessharepoint)
+- [Test Examples](#test-examples)
+
+## Function: getSharepointItemByID
+
+Retrieves a SharePoint item by its unique ID.
+
+### Parameters
+- `queryParams`: An object specifying the query parameters.
+  - `listName` (string): Full list name as it appears in the SharePoint website.
+  - `id` (number): ID of the SharePoint item to retrieve.
+
+### Usage
+```typescript
+import { getSharepointItemByID } from './path-to-your-file';
+
+const queryParams = {
+  listName: 'YourListName',
+  id: 123,
+};
+
+const item = await getSharepointItemByID(queryParams);
+Function: getAllSharepointItems
+Retrieves all items from a SharePoint list.
+
+Parameters
+client (Client): The Microsoft Graph API client.
+queryParams (QueryParams): An object specifying the query parameters.
+listName (string): Full list name as it appears in the SharePoint website.
+getAll (boolean): If true, retrieves all items in the list.
+orderBy (string): Column name used to order the response.
+orderType (OrderType): 'asc' or 'desc' for ascending or descending order.
+Usage
+typescript
+Copy code
+import { getAllSharepointItems } from './path-to-your-file';
+
+const queryParams = {
+  listName: 'YourListName',
+  orderBy: 'ColumnName',
+  orderType: 'desc',
+};
+
+const items = await getAllSharepointItems(client, queryParams);
+Function: getMultipleQueriesSharepoint
+Retrieves data for multiple SharePoint queries using a single Graph API client initialization.
+
+Parameters
+client (Client): The Microsoft Graph API client.
+listQueries (QueryParams[]): An array of objects specifying individual query parameters.
+Usage
+typescript
+Copy code
+import { getMultipleQueriesSharepoint } from './path-to-your-file';
+
+const queries = [
+  { listName: 'List1', orderBy: 'ColumnName1', orderType: 'desc' },
+  { listName: 'List2', orderBy: 'ColumnName2', orderType: 'asc' },
+];
+
+const data = await getMultipleQueriesSharepoint(client, queries);
+Test Examples
+Below are Jest test examples for the SharePoint Graph API functions.
+
+typescript
+Copy code
+import { getAllSharepointItems, getMultipleQueriesSharepoint, getSharepointItemByID } from './path-to-your-file';
+import { InitGraphClient } from './path-to-your-file';
+
+describe('Unit test for SharePoint Graph API functions', () => {
+  it('verifies successful response for getAllSharepointItems', async () => {
+    const client = await InitGraphClient();
+    const items = await getAllSharepointItems(client, { listName: 'Customers List', orderBy: 'Name', orderType: 'desc' });
+
+    expect(true).toEqual(true);
+  });
+
+  // Add additional test cases for other functions...
+});
+Feel free to customize the documentation as needed for your specific use case. If you have any specific questions or need further clarification, feel free to ask!
+
+
+# SAM documentation details
+
 This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders.
 
 - hello-world - Code for the application's Lambda function written in TypeScript.

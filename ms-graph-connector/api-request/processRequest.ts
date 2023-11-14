@@ -8,7 +8,6 @@ import { InitGraphClient } from '../graph-api/Client'
 
 export type RequestBody = {
   authCode: string
-  MultipleQueries: boolean
   queryParams: QueryParams
   queries?: QueryParams[]
 }
