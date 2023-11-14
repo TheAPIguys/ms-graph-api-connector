@@ -24,13 +24,12 @@ export async function processRequest(requestBody: RequestBody | undefined): Prom
   }
 
   if (requestBody.authCode === process.env.AUTH_CODE) {
+    const client = await InitGraphClient()
     if (isGetAll(requestBody)) {
-      const client = await InitGraphClient()
       // check if the query is for multiple lists
       if (requestBody.queries) {
         return await getMultipleQueriesSharepoint(client, requestBody.queries)
       }
-
       return await getAllSharepointItems(client, requestBody.queryParams)
     } else {
       return await getSharepointItemByID(requestBody.queryParams)
